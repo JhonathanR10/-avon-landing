@@ -1,0 +1,623 @@
+[
+ {
+  "img": "assets/catalogo/p1_30.png",
+  "name": "Avon Alpha EDT",
+  "sku": "F3931391",
+  "size": "3.4 OZ",
+  "case": 35,
+  "cat": "Fragrances",
+  "q": "avon alpha edt f3931391 3.4 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p1_43.png",
+  "name": "Black Suede The Blend EDT",
+  "sku": "F4692131",
+  "size": "3.4 OZ",
+  "case": 32,
+  "cat": "Fragrances",
+  "q": "black suede the blend edt f4692131 3.4 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p1_31.png",
+  "name": "Black Suede EDT",
+  "sku": "F4516251",
+  "size": "3.4 OZ",
+  "case": 30,
+  "cat": "Fragrances",
+  "q": "black suede edt f4516251 3.4 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p1_44.png",
+  "name": "Mesmerize Aqua EDT",
+  "sku": "F4571571",
+  "size": "3.4 OZ",
+  "case": 35,
+  "cat": "Fragrances",
+  "q": "mesmerize aqua edt f4571571 3.4 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p1_35.png",
+  "name": "Mesmerize Black EDT",
+  "sku": "F3988361",
+  "size": "3.4 OZ",
+  "case": 35,
+  "cat": "Fragrances",
+  "q": "mesmerize black edt f3988361 3.4 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p1_36.png",
+  "name": "Mesmerize Cologne Spray",
+  "sku": "F4387251",
+  "size": "3.4 OZ",
+  "case": 35,
+  "cat": "Fragrances",
+  "q": "mesmerize cologne spray f4387251 3.4 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p1_40.png",
+  "name": "Cologne Spray",
+  "sku": "F135471",
+  "size": "3 OZ",
+  "case": 36,
+  "cat": "Fragrances",
+  "q": "cologne spray f135471 3 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p1_39.png",
+  "name": "Cologne Spray",
+  "sku": "F600011",
+  "size": "3.4 OZ",
+  "case": 32,
+  "cat": "Fragrances",
+  "q": "cologne spray f600011 3.4 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p2_76.png",
+  "name": "Far Away Bali EDP",
+  "sku": "F4434731",
+  "size": "1.7 OZ",
+  "case": 36,
+  "cat": "Fragrances",
+  "q": "far away bali edp f4434731 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p2_67.png",
+  "name": "Far Away EDP",
+  "sku": "F4448061",
+  "size": "1.7 OZ",
+  "case": 70,
+  "cat": "Fragrances",
+  "q": "far away edp f4448061 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p2_68.png",
+  "name": "Far Away Gold EDP",
+  "sku": "F4447951",
+  "size": "1.7 OZ",
+  "case": 70,
+  "cat": "Fragrances",
+  "q": "far away gold edp f4447951 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p2_77.png",
+  "name": "Far Away Moroccan Nights EDP",
+  "sku": "F4716751",
+  "size": "1.7 OZ",
+  "case": 36,
+  "cat": "Fragrances",
+  "q": "far away moroccan nights edp f4716751 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p2_70.png",
+  "name": "Haiku EDP",
+  "sku": "F4749381",
+  "size": "1.7 OZ",
+  "case": 60,
+  "cat": "Fragrances",
+  "q": "haiku edp f4749381 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p2_72.png",
+  "name": "Haiku Reflection EDP",
+  "sku": "F4082671",
+  "size": "1.7 OZ",
+  "case": 60,
+  "cat": "Fragrances",
+  "q": "haiku reflection edp f4082671 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p3_101.png",
+  "name": "Imari Seduction EDT",
+  "sku": "F4281741",
+  "size": "",
+  "case": 30,
+  "cat": "Fragrances",
+  "q": "imari seduction edt f4281741 fragrances"
+ },
+ {
+  "img": "assets/catalogo/p3_103.png",
+  "name": "Odyssey Cologne",
+  "sku": "F4748931",
+  "size": "1.7 OZ",
+  "case": 30,
+  "cat": "Fragrances",
+  "q": "odyssey cologne f4748931 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p3_104.png",
+  "name": "Rare Amethyst EDP",
+  "sku": "F3882931",
+  "size": "1.7 OZ",
+  "case": 30,
+  "cat": "Fragrances",
+  "q": "rare amethyst edp f3882931 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p3_111.png",
+  "name": "Rare Pink Sapphire EDP",
+  "sku": "F4624471",
+  "size": "1.7 OZ",
+  "case": 30,
+  "cat": "Fragrances",
+  "q": "rare pink sapphire edp f4624471 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p3_106.png",
+  "name": "Rare Pearls EDP",
+  "sku": "F4516211",
+  "size": "1.7 OZ",
+  "case": 30,
+  "cat": "Fragrances",
+  "q": "rare pearls edp f4516211 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p3_108.png",
+  "name": "Timeless Cologne",
+  "sku": "F4017091",
+  "size": "1.7 OZ",
+  "case": 30,
+  "cat": "Fragrances",
+  "q": "timeless cologne f4017091 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p4_132.png",
+  "name": "Classics Dreamlife Cologne",
+  "sku": "F4571671",
+  "size": "1.7 OZ",
+  "case": 30,
+  "cat": "Fragrances",
+  "q": "classics dreamlife cologne f4571671 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p4_133.png",
+  "name": "Topaze Cologne",
+  "sku": "F4464951",
+  "size": "1.7 OZ",
+  "case": 30,
+  "cat": "Fragrances",
+  "q": "topaze cologne f4464951 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p4_142.png",
+  "name": "Candid Cologne",
+  "sku": "F4016781",
+  "size": "1.7 OZ",
+  "case": 30,
+  "cat": "Fragrances",
+  "q": "candid cologne f4016781 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p4_144.png",
+  "name": "Imari Amor EDP",
+  "sku": "F4551311",
+  "size": "1.7 OZ",
+  "case": 30,
+  "cat": "Fragrances",
+  "q": "imari amor edp f4551311 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p4_145.png",
+  "name": "Wild Country For Her Boot EDP",
+  "sku": "F4642031",
+  "size": "5 OZ",
+  "case": 10,
+  "cat": "Fragrances",
+  "q": "wild country for her boot edp f4642031 5 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p4_139.png",
+  "name": "Lyrd Sultry Orchid EDP",
+  "sku": "F4692511",
+  "size": "1.7 OZ",
+  "case": 24,
+  "cat": "Fragrances",
+  "q": "lyrd sultry orchid edp f4692511 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p4_140.png",
+  "name": "Lyrd Clementine & Poppy EDP",
+  "sku": "F4716761",
+  "size": "1.7 OZ",
+  "case": 24,
+  "cat": "Fragrances",
+  "q": "lyrd clementine & poppy edp f4716761 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p4_141.png",
+  "name": "Lyrd Honeysuckle Blossom EDP",
+  "sku": "F4723451",
+  "size": "1.7 OZ",
+  "case": 24,
+  "cat": "Fragrances",
+  "q": "lyrd honeysuckle blossom edp f4723451 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p5_170.png",
+  "name": "Lyrd Hair & Body Mist Honeysuckle Blossom",
+  "sku": "F4692581",
+  "size": "3.25 OZ",
+  "case": 24,
+  "cat": "Fragrances",
+  "q": "lyrd hair & body mist honeysuckle blossom f4692581 3.25 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p5_171.png",
+  "name": "Lyrd Pear Blossom & Bamboo EDP",
+  "sku": "F4721471",
+  "size": "1.7 OZ",
+  "case": 24,
+  "cat": "Fragrances",
+  "q": "lyrd pear blossom & bamboo edp f4721471 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p5_165.png",
+  "name": "Black Suede",
+  "sku": "F4037791",
+  "size": "1.7 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "black suede f4037791 1.7 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p5_166.png",
+  "name": "Candid",
+  "sku": "F3894411",
+  "size": "2.6 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "candid f3894411 2.6 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p5_167.png",
+  "name": "Cool Confidence Baby Powder",
+  "sku": "F3332581",
+  "size": "1.7 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "cool confidence baby powder f3332581 1.7 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p5_175.png",
+  "name": "On Duty Sport",
+  "sku": "F3324691",
+  "size": "1.7 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "on duty sport f3324691 1.7 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p5_176.png",
+  "name": "On Duty Unscented",
+  "sku": "F3336381",
+  "size": "1.7 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "on duty unscented f3336381 1.7 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p5_177.png",
+  "name": "Rare Gold",
+  "sku": "F3894431",
+  "size": "2.6 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "rare gold f3894431 2.6 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p6_191.png",
+  "name": "Cool Confidence Original",
+  "sku": "F3354391",
+  "size": "1.7 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "cool confidence original f3354391 1.7 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p6_192.png",
+  "name": "Far Away",
+  "sku": "F3894391",
+  "size": "1.7 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "far away f3894391 1.7 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p6_193.png",
+  "name": "Feelin Fresh Original",
+  "sku": "F3332591",
+  "size": "1.7 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "feelin fresh original f3332591 1.7 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p6_194.png",
+  "name": "Haiku",
+  "sku": "F3894441",
+  "size": "1.7 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "haiku f3894441 1.7 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p6_196.png",
+  "name": "Mesmerize",
+  "sku": "F3896931",
+  "size": "1.7 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "mesmerize f3896931 1.7 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p6_195.png",
+  "name": "Imari",
+  "sku": "F3946911",
+  "size": "1.7 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "imari f3946911 1.7 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p6_200.png",
+  "name": "Night Magic",
+  "sku": "F3894451",
+  "size": "1.7 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "night magic f3894451 1.7 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p6_201.png",
+  "name": "Odyssey",
+  "sku": "F3894461",
+  "size": "2.6 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "odyssey f3894461 2.6 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p6_202.png",
+  "name": "On Duty Original",
+  "sku": "F3347451",
+  "size": "2.6 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "on duty original f3347451 2.6 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p7_213.png",
+  "name": "Rare Pearls",
+  "sku": "F3894421",
+  "size": "2.6 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "rare pearls f3894421 2.6 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p7_215.png",
+  "name": "Sweet Honesty",
+  "sku": "F3333671",
+  "size": "1.7 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "sweet honesty f3333671 1.7 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p7_214.png",
+  "name": "Skin So Soft Sensual",
+  "sku": "F4127011",
+  "size": "2.6 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "skin so soft sensual f4127011 2.6 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p7_219.png",
+  "name": "Wild Country",
+  "sku": "F3334311",
+  "size": "1.7 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "wild country f3334311 1.7 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p7_224.png",
+  "name": "Rare Jade",
+  "sku": "F4734141",
+  "size": "1.7 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "rare jade f4734141 1.7 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p7_218.png",
+  "name": "Timeless",
+  "sku": "F3333681",
+  "size": "2.6 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "timeless f3333681 2.6 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p7_225.png",
+  "name": "Soft & Sensual",
+  "sku": "F4734081",
+  "size": "1.7 OZ",
+  "case": 120,
+  "cat": "Deodorants",
+  "q": "soft & sensual f4734081 1.7 oz deodorants"
+ },
+ {
+  "img": "assets/catalogo/p8_237.png",
+  "name": "Candid Skin Softener Cream",
+  "sku": "F4749661",
+  "size": "5 OZ",
+  "case": 88,
+  "cat": "Creams, Oils & Lotions",
+  "q": "candid skin softener cream f4749661 5 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p8_238.png",
+  "name": "Far Away Skin Softener Cream",
+  "sku": "F4749611",
+  "size": "5 OZ",
+  "case": 88,
+  "cat": "Creams, Oils & Lotions",
+  "q": "far away skin softener cream f4749611 5 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p8_239.png",
+  "name": "Cream",
+  "sku": "F4749621",
+  "size": "5 OZ",
+  "case": 88,
+  "cat": "Creams, Oils & Lotions",
+  "q": "cream f4749621 5 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p8_240.png",
+  "name": "Imari Skin Softener Cream",
+  "sku": "F4749631",
+  "size": "5 OZ",
+  "case": 88,
+  "cat": "Creams, Oils & Lotions",
+  "q": "imari skin softener cream f4749631 5 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p8_241.png",
+  "name": "Cream",
+  "sku": "F4749641",
+  "size": "5 OZ",
+  "case": 88,
+  "cat": "Creams, Oils & Lotions",
+  "q": "cream f4749641 5 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p8_242.png",
+  "name": "Cream",
+  "sku": "F4749681",
+  "size": "5 OZ",
+  "case": 88,
+  "cat": "Creams, Oils & Lotions",
+  "q": "cream f4749681 5 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p8_248.png",
+  "name": "Skin So Soft Original Bath Oil",
+  "sku": "F4626301",
+  "size": "16.9 OZ",
+  "case": 25,
+  "cat": "Creams, Oils & Lotions",
+  "q": "skin so soft original bath oil f4626301 16.9 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p8_247.png",
+  "name": "Timeless Skin Softener Cream",
+  "sku": "F4749651",
+  "size": "5 OZ",
+  "case": 88,
+  "cat": "Creams, Oils & Lotions",
+  "q": "timeless skin softener cream f4749651 5 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p9_264.png",
+  "name": "Skin So Soft Sensual Bath Oil",
+  "sku": "F3975161",
+  "size": "16.9 OZ",
+  "case": 25,
+  "cat": "Creams, Oils & Lotions",
+  "q": "skin so soft sensual bath oil f3975161 16.9 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p9_260.png",
+  "name": "Skin So Soft Original Body Lotion",
+  "sku": "F3972181",
+  "size": "11.8 OZ",
+  "case": 30,
+  "cat": "Creams, Oils & Lotions",
+  "q": "skin so soft original body lotion f3972181 11.8 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p9_261.png",
+  "name": "Skin So Soft Sensual Body Lotion",
+  "sku": "F3975381",
+  "size": "11.8 OZ",
+  "case": 30,
+  "cat": "Creams, Oils & Lotions",
+  "q": "skin so soft sensual body lotion f3975381 11.8 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p9_269.png",
+  "name": "Skin So Soft Original Body Lotion",
+  "sku": "",
+  "size": "",
+  "case": null,
+  "cat": "Creams, Oils & Lotions",
+  "q": "skin so soft original body lotion creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p9_266.png",
+  "name": "Skin So Soft Sensual Bonus Size Bath Oil",
+  "sku": "",
+  "size": "25 OZ",
+  "case": null,
+  "cat": "Creams, Oils & Lotions",
+  "q": "skin so soft sensual bonus size bath oil 25 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p9_268.png",
+  "name": "Skin So Soft Original Bonus Size Bath Oil",
+  "sku": "",
+  "size": "25 OZ",
+  "case": null,
+  "cat": "Creams, Oils & Lotions",
+  "q": "skin so soft original bonus size bath oil 25 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p9_273.png",
+  "name": "Skin So Soft Sensual Body Lotion",
+  "sku": "",
+  "size": "33.8 OZ",
+  "case": null,
+  "cat": "Creams, Oils & Lotions",
+  "q": "skin so soft sensual body lotion 33.8 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p9_274.png",
+  "name": "Moisture Therapy Daily Defense Body Lotion",
+  "sku": "",
+  "size": "33.8 OZ",
+  "case": null,
+  "cat": "Creams, Oils & Lotions",
+  "q": "moisture therapy daily defense body lotion 33.8 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p9_275.png",
+  "name": "Moisture Therapy Intensive Healing Body Lotion",
+  "sku": "",
+  "size": "33.8 OZ",
+  "case": null,
+  "cat": "Creams, Oils & Lotions",
+  "q": "moisture therapy intensive healing body lotion 33.8 oz creams, oils & lotions"
+ }
+]

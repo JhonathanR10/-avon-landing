@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AVON Distributor USA &amp; LATAM | Wholesale AVON Products | DC Company LLC</title>
+<meta name="description" content="DC Company LLC is an authorized AVON distributor based in Orlando, Florida, supplying wholesale AVON products, fragrances, skincare, deodorants, and personal care products to B2B buyers across the USA and LATAM." />
+<meta name="keywords" content="AVON distributor USA, AVON distributor in FL, wholesale beauty products, wholesale AVON products, perfume wholesale distributor, beauty distribution USA and LATAM, AVON wholesale supplier, wholesale skincare products, beauty products distributor Orlando, AVON products for wholesale" />
+<link rel="canonical" href="https://www.dccompanyllc.com/avon-wholesale-distribution" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="AVON Distributor USA &amp; LATAM | Wholesale AVON Products | DC Company LLC" />
+<meta property="og:description" content="Authorized AVON distributor in Orlando, FL. Wholesale fragrances, skincare, deodorants and personal care products for distributors, retailers and importers across the USA and LATAM." />
+<meta property="og:image" content="https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=1200&q=80" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="AVON Distributor USA &amp; LATAM | DC Company LLC" />
+<meta name="twitter:description" content="Authorized AVON wholesale distributor based in Orlando, Florida, serving B2B buyers across the USA and LATAM." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================================
+   DC Company LLC — Luxury Beauty Wholesale Design System
+   Palette scraped from brand reference (AVON rose / magenta)
+   ============================================================ */
+:root{
+  --rose:#D81B60;          /* primary rose / magenta */
+  --rose-dark:#AD1457;     /* hover / deep CTA banner */
+  --rose-soft:#FCE4EC;     /* soft pink section bg */
+  --rose-tint:#FBEFF4;     /* icon chips, subtle fills */
+  --on-rose:#FFFFFF;
+  --bg:#FFFFFF;            /* white */
+  --bg-alt:#FAF7F3;        /* soft off-white */
+  --surface:#FFFFFF;
+  --ink:#23262F;          /* dark charcoal headings */
+  --ink-soft:#5C6270;     /* soft gray body */
+  --ink-faint:#8A909C;
+  --border:#ECE7E1;
+  --dark:#1B1E27;         /* footer / overlay base */
+  --ring:#D81B60;
+  --radius:18px;
+  --radius-sm:12px;
+  --shadow-sm:0 1px 2px rgba(27,30,39,.05),0 1px 3px rgba(27,30,39,.06);
+  --shadow-md:0 10px 30px -12px rgba(27,30,39,.18);
+  --shadow-lg:0 28px 60px -24px rgba(27,30,39,.28);
+  --container:1180px;
+  --space:clamp(4rem,8vw,7rem);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:118px;-webkit-text-size-adjust:100%;overflow-x:hidden}
+body{
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  color:var(--ink-soft);
+  background:var(--bg);
+  line-height:1.7;
+  font-size:17px;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+  width:100%;
+  overflow-wrap:break-word;
+}
+/* let grid/flex children shrink so nothing forces horizontal overflow on mobile */
+.form-wrap>*,.logi>*,.form-grid>*,.catalog-grid>*,.grid>*,.steps>*{min-width:0}
+h1,h2,h3,h4{font-family:'Playfair Display',Georgia,serif;color:var(--ink);line-height:1.18;letter-spacing:-.01em;font-weight:600;overflow-wrap:break-word}
+h1{font-size:clamp(2.1rem,5vw,3.5rem)}
+h2{font-size:clamp(1.8rem,3.8vw,2.7rem)}
+h3{font-size:1.28rem}
+p{max-width:66ch}
+a{color:inherit;text-decoration:none}
+img,svg{display:block;max-width:100%}
+ul{list-style:none}
+.container{width:100%;max-width:var(--container);margin-inline:auto;padding-inline:clamp(1.1rem,4vw,2rem)}
+section{padding-block:var(--space)}
+.eyebrow{display:inline-block;font-weight:600;font-size:.76rem;letter-spacing:.18em;text-transform:uppercase;color:var(--rose);margin-bottom:1rem}
+.lead{font-size:1.13rem;color:var(--ink-soft);max-width:62ch}
+.section-head{max-width:760px;margin-bottom:3.2rem}
+.center{text-align:center;margin-inline:auto}
+.center p{margin-inline:auto}
+.bg-alt{background:var(--bg-alt)}
+
+/* ============ Buttons ============ */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.5rem;
+  font-family:'Inter',sans-serif;font-weight:600;font-size:.96rem;
+  padding:.85rem 1.7rem;border-radius:999px;border:1.5px solid transparent;
+  cursor:pointer;transition:transform .2s ease,background .2s ease,box-shadow .2s ease,color .2s ease;
+  white-space:nowrap;line-height:1;
+}
+.btn:focus-visible{outline:3px solid rgba(216,27,96,.4);outline-offset:2px}
+.btn-primary{background:var(--rose);color:var(--on-rose);box-shadow:0 8px 20px -8px rgba(216,27,96,.6)}
+.btn-primary:hover{background:var(--rose-dark);transform:translateY(-2px)}
+.btn-outline{background:transparent;color:var(--ink);border-color:var(--border)}
+.btn-outline:hover{border-color:var(--rose);color:var(--rose);transform:translateY(-2px)}
+.btn-ghost-light{background:rgba(255,255,255,.12);color:#fff;border-color:rgba(255,255,255,.45);backdrop-filter:blur(6px)}
+.btn-ghost-light:hover{background:#fff;color:var(--ink);transform:translateY(-2px)}
+.btn-white{background:#fff;color:var(--rose);border-color:#fff}
+.btn-white:hover{transform:translateY(-2px);box-shadow:var(--shadow-md)}
+.btn-lg{padding:1rem 2rem;font-size:1rem}
+.btn .ic{width:18px;height:18px}
+
+/* ============ Header ============ */
+.header{
+  position:sticky;top:0;z-index:100;background:rgba(255,255,255,.82);
+  backdrop-filter:saturate(180%) blur(16px);border-bottom:1px solid var(--border);
+}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:clamp(.8rem,2vw,1.6rem);height:104px}
+.brand{display:inline-flex;flex-direction:column;align-items:center;gap:.34rem;flex:none}
+.brand img{height:72px;width:auto}
+.brand .bsub{
+  font-size:.56rem;letter-spacing:.14em;text-transform:uppercase;color:var(--rose);white-space:nowrap;
+  font-weight:700;line-height:1;padding-top:.32rem;border-top:1.5px solid var(--rose-tint);text-align:center;
+}
+.nav-links{display:flex;align-items:center;gap:clamp(.55rem,1.2vw,1.25rem);flex:1;justify-content:center}
+.nav-links a{font-size:.88rem;font-weight:500;color:var(--ink);white-space:nowrap;position:relative;padding-block:.4rem;transition:color .2s}
+.nav-links a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--rose);transform:scaleX(0);transform-origin:center;transition:transform .25s ease}
+.nav-links a:hover{color:var(--rose)}
+.nav-links a:hover::after{transform:scaleX(1)}
+.nav-cta{display:flex;align-items:center;gap:.55rem;flex:none}
+.nav-cta .btn{padding:.58rem 1rem;font-size:.84rem}
+.lang-toggle{display:inline-flex;border:1.5px solid var(--border);border-radius:999px;overflow:hidden;flex:none;background:#fff}
+.lang-toggle button{font-family:'Inter',sans-serif;font-size:.74rem;font-weight:700;letter-spacing:.04em;cursor:pointer;border:none;background:transparent;color:var(--ink-soft);padding:.34rem .6rem;line-height:1;transition:background .2s,color .2s}
+.lang-toggle button.active{background:var(--rose);color:#fff}
+.lang-toggle button:not(.active):hover{color:var(--rose)}
+.burger{display:none;background:none;border:none;cursor:pointer;padding:.4rem;color:var(--ink)}
+.burger svg{width:28px;height:28px}
+
+/* ============ Hero ============ */
+.hero{position:relative;min-height:600px;display:flex;align-items:center;color:#fff;isolation:isolate}
+.hero::before{
+  content:"";position:absolute;inset:0;z-index:-2;
+  background:url('assets/hero-avon.png') center/cover no-repeat;
+}
+.hero::after{
+  content:"";position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(105deg,rgba(20,12,18,.86) 0%,rgba(33,18,28,.7) 45%,rgba(140,30,80,.32) 100%);
+}
+.hero-inner{padding-block:clamp(2.4rem,5vw,3.6rem);max-width:760px}
+.hero .eyebrow{color:#FBC7DC}
+.hero h1{color:#fff;margin-bottom:1.4rem;text-shadow:0 2px 24px rgba(0,0,0,.3)}
+.hero .lead{color:rgba(255,255,255,.92);font-size:1.18rem;max-width:60ch;margin-bottom:1.8rem}
+.hero-badges{display:flex;flex-wrap:wrap;gap:.7rem;margin-bottom:2rem}
+.hero-badges span{
+  display:inline-flex;align-items:center;gap:.5rem;font-size:.85rem;font-weight:500;
+  padding:.5rem .95rem;border-radius:999px;background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.28);backdrop-filter:blur(6px)
+}
+.hero-badges .ic{width:16px;height:16px;color:#FBC7DC}
+.hero-cta{display:flex;flex-wrap:wrap;gap:1rem}
+
+/* ============ Trust bar ============ */
+.trustbar{background:var(--dark);color:#fff}
+.trustbar .container{display:grid;grid-template-columns:repeat(5,1fr);gap:1.5rem;padding-block:2.4rem}
+.trust-item{display:flex;flex-direction:column;align-items:center;text-align:center;gap:.7rem}
+.trust-item .ic{width:30px;height:30px;color:#F48FB1}
+.trust-item span{font-size:.9rem;font-weight:500;color:rgba(255,255,255,.88);line-height:1.4}
+
+/* ============ Cards ============ */
+.grid{display:grid;gap:1.5rem}
+.grid-2{grid-template-columns:repeat(2,1fr)}
+.grid-3{grid-template-columns:repeat(3,1fr)}
+.grid-4{grid-template-columns:repeat(4,1fr)}
+.card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:2rem 1.7rem;box-shadow:var(--shadow-sm);transition:transform .25s ease,box-shadow .25s ease;
+}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.card h3{margin-bottom:.55rem}
+.card p{font-size:.97rem;color:var(--ink-soft);max-width:none}
+.chip{
+  display:inline-flex;align-items:center;justify-content:center;width:54px;height:54px;
+  border-radius:14px;background:var(--rose-tint);color:var(--rose);margin-bottom:1.2rem
+}
+.chip .ic{width:26px;height:26px}
+
+/* ============ About ============ */
+.about-copy p{margin-bottom:1.1rem}
+.about-img{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-lg);aspect-ratio:3/2}
+.about-img img{width:100%;height:100%;object-fit:cover;display:block}
+
+/* ============ Authorized section ============ */
+.authorized{background:var(--rose-soft)}
+.authorized .inner{max-width:820px;margin-inline:auto;text-align:center}
+.authorized p{margin-inline:auto;margin-bottom:1.4rem}
+.badge-row{display:flex;flex-wrap:wrap;gap:.7rem;justify-content:center;margin-top:1.8rem}
+.badge{
+  display:inline-flex;align-items:center;gap:.5rem;background:#fff;border:1px solid var(--rose-tint);
+  color:var(--rose-dark);font-weight:600;font-size:.88rem;padding:.6rem 1.1rem;border-radius:999px;box-shadow:var(--shadow-sm)
+}
+.badge .ic{width:16px;height:16px;color:var(--rose)}
+.note{font-size:.82rem;color:var(--ink-faint);max-width:60ch;margin:1.6rem auto 0;font-style:italic}
+
+/* ============ Product categories ============ */
+.prod-card{
+  background:#fff;border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;
+  box-shadow:var(--shadow-sm);transition:transform .25s ease,box-shadow .25s ease;
+}
+.prod-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.prod-card .ph{aspect-ratio:4/3;overflow:hidden}
+.prod-card .ph img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.prod-card:hover .ph img{transform:scale(1.06)}
+.prod-card .body{padding:1.4rem 1.5rem 1.7rem}
+.prod-card h3{margin-bottom:.4rem}
+.prod-card p{font-size:.95rem;max-width:none}
+
+/* ============ Dynamic catalog ============ */
+.catalog-toolbar{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between;margin-bottom:2.2rem}
+.cat-filters{display:flex;flex-wrap:wrap;gap:.55rem}
+.cat-chip{
+  font-family:'Inter',sans-serif;font-weight:600;font-size:.86rem;cursor:pointer;
+  padding:.55rem 1.15rem;border-radius:999px;border:1.5px solid var(--border);
+  background:#fff;color:var(--ink-soft);transition:all .2s ease;white-space:nowrap;
+}
+.cat-chip:hover{border-color:var(--rose);color:var(--rose)}
+.cat-chip.active{background:var(--rose);border-color:var(--rose);color:#fff;box-shadow:0 8px 18px -8px rgba(216,27,96,.55)}
+.cat-chip .n{font-weight:500;opacity:.7;margin-left:.25rem}
+.cat-search{position:relative;flex:0 1 320px;min-width:220px}
+.cat-search .ic{position:absolute;left:.95rem;top:50%;transform:translateY(-50%);width:18px;height:18px;color:var(--ink-faint)}
+.cat-search input{
+  width:100%;font-family:inherit;font-size:.95rem;color:var(--ink);background:#fff;
+  border:1.5px solid var(--border);border-radius:999px;padding:.7rem 1rem .7rem 2.6rem;transition:border-color .2s,box-shadow .2s;
+}
+.cat-search input:focus{outline:none;border-color:var(--rose);box-shadow:0 0 0 3px rgba(216,27,96,.13)}
+.catalog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(212px,1fr));gap:1.2rem;grid-auto-rows:1fr}
+.cat-item{
+  background:#fff;border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden;
+  box-shadow:var(--shadow-sm);transition:transform .25s ease,box-shadow .25s ease;display:flex;flex-direction:column;height:100%;
+}
+.cat-item:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.cat-item .pic{aspect-ratio:4/3;overflow:hidden;background:#F4ECDC;display:flex;align-items:center;justify-content:center}
+.cat-item .pic img{width:100%;height:100%;object-fit:contain;transition:transform .45s ease}
+.cat-item:hover .pic img{transform:scale(1.05)}
+.cat-item .body{padding:.82rem .9rem .9rem;display:flex;flex-direction:column;gap:.42rem;flex:1}
+.cat-item .pname{font-family:'Playfair Display',Georgia,serif;font-size:.97rem;font-weight:600;color:var(--ink);line-height:1.24;margin:0;min-height:2.4em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.cat-item .psize{font-size:.8rem;color:var(--ink-soft);font-weight:500;line-height:1.3}
+.cat-item .meta{margin-top:auto;padding-top:.6rem;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+.cat-item .sku{font-family:'Inter',sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.04em;color:var(--ink-faint)}
+.cat-tag{font-size:.68rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--rose);background:var(--rose-tint);padding:.2rem .5rem;border-radius:6px;white-space:nowrap}
+.catalog-empty{text-align:center;color:var(--ink-faint);padding:3rem 1rem;font-size:1rem;display:none}
+.catalog-empty.show{display:block}
+.catalog-note{font-size:.82rem;color:var(--ink-faint);text-align:center;margin-top:1.6rem;font-style:italic}
+.catalog-actions{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;margin-top:2.6rem}
+
+/* ============ Booking calendar embed ============ */
+.booking-embed{margin-top:1.6rem;border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);display:none}
+.booking-embed.show{display:block}
+.booking-embed iframe{width:100%;min-height:680px;border:0;display:block}
+.booking-divider{display:flex;align-items:center;gap:1rem;margin:1.8rem 0 .2rem;color:var(--ink-faint);font-size:.82rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.booking-divider::before,.booking-divider::after{content:"";height:1px;background:var(--border);flex:1}
+
+/* ============ Steps ============ */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;counter-reset:step}
+.step{position:relative;background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:2rem 1.6rem;box-shadow:var(--shadow-sm)}
+.step .num{font-family:'Playfair Display',serif;font-size:.8rem;font-weight:700;letter-spacing:.16em;color:var(--rose);margin-bottom:.9rem;display:block}
+.step .schip{width:48px;height:48px;border-radius:50%;background:var(--rose);color:#fff;display:flex;align-items:center;justify-content:center;margin-bottom:1rem}
+.step .schip .ic{width:22px;height:22px}
+.step h3{font-size:1.12rem;margin-bottom:.5rem}
+.step p{font-size:.93rem;max-width:none}
+
+/* ============ Logistics ============ */
+.logi{display:grid;grid-template-columns:1.05fr .95fr;gap:3rem;align-items:center}
+.logi-list{margin-top:1.6rem;display:grid;gap:.85rem}
+.logi-list li{display:flex;align-items:flex-start;gap:.7rem;font-size:.98rem;color:var(--ink-soft)}
+.logi-list .ic{width:22px;height:22px;color:var(--rose);flex:none;margin-top:.1rem}
+.logi-img{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-lg);aspect-ratio:4/3}
+.logi-img img{width:100%;height:100%;object-fit:cover}
+
+/* ============ CTA banner ============ */
+.cta-banner{background:linear-gradient(120deg,var(--rose) 0%,var(--rose-dark) 100%);color:#fff;text-align:center}
+.cta-banner h2{color:#fff;margin-bottom:1rem}
+.cta-banner p{color:rgba(255,255,255,.92);margin:0 auto 2rem;max-width:58ch}
+.cta-banner .row{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+
+/* ============ Form ============ */
+.form-wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:3rem;align-items:start}
+.form-card{background:#fff;border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow-lg);padding:2.2rem}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem}
+.field{display:flex;flex-direction:column;gap:.4rem}
+.field.full{grid-column:1/-1}
+.field label{font-size:.85rem;font-weight:600;color:var(--ink)}
+.field label .req{color:var(--rose)}
+.field input,.field select,.field textarea{
+  font-family:inherit;font-size:.95rem;color:var(--ink);background:#fff;width:100%;min-width:0;max-width:100%;
+  border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:.7rem .85rem;transition:border-color .2s,box-shadow .2s;
+}
+.form-card,.form-aside{min-width:0;max-width:100%}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--rose);box-shadow:0 0 0 3px rgba(216,27,96,.13)}
+.field textarea{resize:vertical;min-height:96px}
+.field .err{font-size:.78rem;color:#C62828;display:none}
+.field.invalid input,.field.invalid select{border-color:#C62828}
+.field.invalid .err{display:block}
+.checks{display:flex;flex-wrap:wrap;gap:.6rem .9rem}
+.check{display:inline-flex;align-items:center;gap:.45rem;font-size:.9rem;font-weight:500;color:var(--ink-soft);cursor:pointer}
+.check input{width:17px;height:17px;accent-color:var(--rose)}
+.form-success{display:none;background:var(--rose-soft);border:1px solid var(--rose-tint);border-radius:var(--radius);padding:1.4rem 1.5rem;color:var(--rose-dark);font-weight:500;margin-top:1.2rem}
+.form-success.show{display:block}
+.form-aside .lead{margin-bottom:1.6rem}
+.contact-list{display:grid;gap:1.3rem;margin-top:.5rem}
+.contact-row{display:flex;gap:.9rem;align-items:flex-start}
+.contact-row .ic{width:22px;height:22px;color:var(--rose);flex:none;margin-top:.2rem}
+.contact-row strong{display:block;color:var(--ink);font-size:.95rem}
+.contact-row span,.contact-row a{font-size:.95rem;color:var(--ink-soft)}
+.contact-row a:hover{color:var(--rose)}
+
+/* ============ Contact buttons ============ */
+.contact-cta{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.8rem}
+
+/* ============ Toast ============ */
+.toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(20px);
+  background:var(--dark);color:#fff;font-size:.92rem;font-weight:500;padding:.85rem 1.3rem;border-radius:999px;
+  box-shadow:var(--shadow-lg);z-index:2000;opacity:0;pointer-events:none;transition:opacity .25s ease,transform .25s ease;max-width:90vw;text-align:center}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ============ FAQ ============ */
+.faq{max-width:820px;margin-inline:auto}
+.faq-item{border:1px solid var(--border);border-radius:var(--radius-sm);margin-bottom:.9rem;background:#fff;overflow:hidden}
+.faq-q{width:100%;text-align:left;background:none;border:none;cursor:pointer;font-family:inherit;
+  font-size:1.02rem;font-weight:600;color:var(--ink);padding:1.15rem 1.4rem;display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.faq-q .ic{width:20px;height:20px;color:var(--rose);transition:transform .25s ease;flex:none}
+.faq-item.open .faq-q .ic{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease}
+.faq-a p{padding:0 1.4rem 1.2rem;font-size:.97rem;color:var(--ink-soft);max-width:none}
+
+/* ============ Footer ============ */
+.footer{background:var(--dark);color:rgba(255,255,255,.72);padding-block:3.5rem 2rem}
+.footer-top{display:grid;grid-template-columns:1.4fr 1fr 1.2fr;gap:2.5rem;padding-bottom:2.2rem;border-bottom:1px solid rgba(255,255,255,.12)}
+.footer img{height:46px;margin-bottom:1rem}
+.footer .ftag{font-size:.92rem;max-width:34ch}
+.footer h4{color:#fff;font-family:'Inter',sans-serif;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;margin-bottom:1.1rem}
+.footer-links{display:grid;gap:.6rem}
+.footer-links a{font-size:.94rem;color:rgba(255,255,255,.72);transition:color .2s}
+.footer-links a:hover{color:#F48FB1}
+.footer-contact{display:grid;gap:.6rem;font-size:.94rem}
+.footer-contact a:hover{color:#F48FB1}
+.footer-bottom{padding-top:1.6rem;display:flex;flex-wrap:wrap;gap:1rem;justify-content:space-between;align-items:center}
+.footer-bottom .disc{font-size:.78rem;color:rgba(255,255,255,.5);max-width:70ch;line-height:1.6}
+.footer-bottom .copy{font-size:.82rem;color:rgba(255,255,255,.55)}
+
+/* ============ Responsive ============ */
+@media(max-width:1024px){
+  .grid-4{grid-template-columns:repeat(2,1fr)}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .trustbar .container{grid-template-columns:repeat(3,1fr);gap:2rem 1rem}
+  .form-wrap{grid-template-columns:1fr;gap:2.2rem}
+  .logi{grid-template-columns:1fr;gap:2rem}
+}
+/* Collapse nav to hamburger early so the header never overflows (esp. in Spanish) */
+@media(max-width:980px){
+  html{scroll-padding-top:96px}
+  .nav{height:86px}
+  .brand img{height:58px}
+  .nav-links{display:none}
+  .nav-links.open{display:flex;position:absolute;top:86px;left:0;right:0;flex-direction:column;
+    background:#fff;padding:1.2rem 1.5rem;gap:1.1rem;border-bottom:1px solid var(--border);box-shadow:var(--shadow-md)}
+  .nav-cta .desk{display:none}
+  .burger{display:inline-flex}
+}
+@media(max-width:760px){
+  html{scroll-padding-top:84px}
+  /* Reorder on mobile so the catalog is reachable right after the hero */
+  body{display:flex;flex-direction:column}
+  body>*{order:3}
+  header.header{order:0}
+  #home{order:1}
+  #catalog{order:2}
+  #request{order:4}
+  footer.footer{order:6}
+  .nav-links,.nav-cta .desk{display:none}
+  .burger{display:inline-flex}
+  .nav{height:74px;gap:.8rem}
+  .brand img{height:48px}
+  .brand{gap:.26rem}
+  .brand .bsub{font-size:.5rem;letter-spacing:.1em;padding-top:.28rem}
+  .nav-cta .btn{padding:.6rem 1rem;font-size:.84rem}
+  .nav-links.open{display:flex;position:absolute;top:74px;left:0;right:0;flex-direction:column;
+    background:#fff;padding:1.2rem 1.5rem;gap:1.1rem;border-bottom:1px solid var(--border);box-shadow:var(--shadow-md)}
+  section{padding-block:clamp(2.6rem,9vw,4rem)}
+  .grid-3,.grid-2,.grid-4{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+  .trustbar .container{grid-template-columns:repeat(2,1fr)}
+  .form-grid{grid-template-columns:1fr}
+  .footer-top{grid-template-columns:1fr;gap:1.8rem}
+  .hero{min-height:auto}
+  .hero-inner{padding-block:2.4rem}
+  h1{font-size:clamp(1.7rem,7.5vw,2.4rem)}
+  h2{font-size:clamp(1.5rem,6vw,2rem)}
+  .hero .lead{font-size:1.02rem}
+  .lead{font-size:1.02rem}
+  .form-card{padding:1.4rem 1.2rem}
+  .catalog-grid{grid-template-columns:repeat(2,1fr);gap:.7rem}
+  .cat-item .pname{font-size:.9rem}
+  .catalog-toolbar{flex-direction:column;align-items:stretch}
+  .cat-filters{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;padding-bottom:.3rem;min-width:0;max-width:100%}
+  .cat-chip{flex:none}
+  .cat-search{flex:1 1 auto;min-width:0;max-width:100%}
+  .cat-search input{width:100%}
+  .hero-cta .btn,.cta-banner .row .btn{width:100%}
+  .hero-cta,.cta-banner .row{width:100%}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="#home" aria-label="DC Company LLC — Authorized AVON Distributor">
+      <img src="assets/logo-color.png" alt="DC Company LLC — Authorized AVON Distributor logo" />
+      <span class="bsub">Authorized AVON Distributor</span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#catalog">Catalog</a>
+      <a href="#request">Price List</a>
+      <a href="#how">How It Works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <div class="lang-toggle" id="langToggle" role="group" aria-label="Language / Idioma">
+        <button type="button" data-lang="en" class="active" aria-pressed="true">EN</button>
+        <button type="button" data-lang="es" aria-pressed="false">ES</button>
+      </div>
+      <a class="btn btn-outline desk" href="#request" data-book>Schedule a Call</a>
+      <a class="btn btn-primary" href="https://wa.me/17869717751" target="_blank" rel="noopener">WhatsApp</a>
+      <button class="burger" id="burger" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="container hero-inner">
+    <span class="eyebrow">Authorized AVON Distributor — USA &amp; LATAM</span>
+    <h1>Authorized AVON Wholesale Distribution for USA &amp; LATAM</h1>
+    <p class="lead">DC Company LLC is an authorized distributor of AVON products, supplying perfumes, deodorants, creams, skincare, and personal care products to wholesalers, retailers, distributors, importers, and commercial buyers across the United States and Latin America.</p>
+    <div class="hero-badges">
+      <span><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 8.4 8 10 4.6-1.6 8-5 8-10V5z"/><path d="m9 12 2 2 4-4"/></svg>USA-Based Company</span>
+      <span><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>Export Ready for LATAM</span>
+      <span><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h13M5 8a3 3 0 0 1 0-6h8M9 16H4a3 3 0 0 1 0-6h13"/><path d="m15 13 3 3-3 3"/></svg>Bilingual Support: English &amp; Spanish</span>
+    </div>
+    <div class="hero-cta">
+      <a class="btn btn-primary btn-lg" href="#catalog">Browse the Catalog</a>
+      <a class="btn btn-ghost-light btn-lg" href="#request">Price List &amp; Schedule a Call</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST BAR ============ -->
+<div class="trustbar">
+  <div class="container">
+    <div class="trust-item">
+      <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 8.4 8 10 4.6-1.6 8-5 8-10V5z"/><path d="m9 12 2 2 4-4"/></svg>
+      <span>Authorized AVON Distributor</span>
+    </div>
+    <div class="trust-item">
+      <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+      <span>Based in Orlando, Florida</span>
+    </div>
+    <div class="trust-item">
+      <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+      <span>USA &amp; LATAM Wholesale Supply</span>
+    </div>
+    <div class="trust-item">
+      <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17h4V5H2v12h3M20 17h2v-4l-3-4h-4v8h2M5 17a2 2 0 1 0 4 0 2 2 0 0 0-4 0Zm10 0a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"/></svg>
+      <span>Logistics Support via DC Logistics US</span>
+    </div>
+    <div class="trust-item">
+      <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 13h5"/></svg>
+      <span>Bilingual Support: English &amp; Spanish</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section id="about">
+  <div class="container">
+    <div class="logi" style="margin-bottom:3.6rem">
+      <div>
+        <span class="eyebrow">About Us</span>
+        <h2>Reliable Wholesale Distribution You Can Count On</h2>
+        <div class="about-copy" style="margin-top:1.3rem">
+          <p>DC Company LLC is a USA-based company located in Orlando, Florida, with years of experience in product distribution, e-commerce, wholesale operations, warehousing, and logistics.</p>
+          <p>Through our business structure, we support B2B clients with wholesale access to AVON products and logistics solutions for domestic distribution in the United States and export support to Latin America.</p>
+          <p>Our mission is to provide reliable access to AVON products for distributors, retailers, importers, and commercial buyers looking for trusted supply, professional service, and scalable logistics support.</p>
+        </div>
+      </div>
+      <div class="about-img">
+        <img src="assets/team.jpg" alt="The DC Company LLC team at their wholesale distribution warehouse in Orlando, Florida" loading="lazy" />
+      </div>
+    </div>
+    <div class="grid grid-4">
+      <div class="card">
+        <div class="chip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h.01M9 13h.01M9 17h.01M15 9h.01M15 13h.01M15 17h.01"/></svg></div>
+        <h3>USA-Based Company</h3>
+        <p>Located in Orlando, Florida, serving wholesale buyers across the USA and LATAM.</p>
+      </div>
+      <div class="card">
+        <div class="chip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13A4 4 0 0 1 16 11"/></svg></div>
+        <h3>Wholesale Experience</h3>
+        <p>Built for B2B clients, retailers, distributors, importers, and commercial buyers.</p>
+      </div>
+      <div class="card">
+        <div class="chip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17h4V5H2v12h3M20 17h2v-4l-3-4h-4v8h2M5 17a2 2 0 1 0 4 0 2 2 0 0 0-4 0Zm10 0a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"/></svg></div>
+        <h3>Logistics Support</h3>
+        <p>Supported by warehousing, order preparation, domestic transportation, and export coordination.</p>
+      </div>
+      <div class="card">
+        <div class="chip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <h3>Bilingual Service</h3>
+        <p>Professional support available in English and Spanish.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AUTHORIZED AVON ============ -->
+<section class="authorized">
+  <div class="container">
+    <div class="inner">
+      <span class="eyebrow">Authorized Distributor</span>
+      <h2>Authorized AVON Distributor</h2>
+      <p class="lead">DC Company LLC is authorized to distribute AVON products for wholesale and B2B customers in the United States and Latin America. We work with qualified buyers including distributors, retailers, beauty stores, importers, and commercial resellers.</p>
+      <div class="badge-row">
+        <span class="badge"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg>Wholesale B2B Supply</span>
+        <span class="badge"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg>USA &amp; LATAM Coverage</span>
+        <span class="badge"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg>Commercial Buyers Welcome</span>
+        <span class="badge"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg>Catalog Available Upon Request</span>
+      </div>
+      <p class="note">AVON trademarks and product images are property of their respective owner and are used only to identify the products distributed by DC Company LLC.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DYNAMIC CATALOG ============ -->
+<section id="catalog" class="bg-alt">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Product Catalog</span>
+      <h2>Explore the Available AVON Catalog</h2>
+      <p class="lead">Browse our in-stock AVON fragrances, deodorants, creams, oils and lotions. Filter by category or search by name or SKU. For wholesale pricing, request the price list and schedule a call with our team.</p>
+    </div>
+
+    <div class="catalog-toolbar">
+      <div class="cat-filters" id="catFilters" role="tablist" aria-label="Filter products by category"></div>
+      <div class="cat-search">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="search" id="catSearch" placeholder="Search by product or SKU…" aria-label="Search products" autocomplete="off" />
+      </div>
+    </div>
+
+    <div class="catalog-grid" id="catalogGrid" aria-live="polite"></div>
+    <div class="catalog-empty" id="catalogEmpty">No products match your search. Try another category or keyword.</div>
+
+    <p class="catalog-note">Showing <span id="catCount">0</span> available references. AVON trademarks and product images are property of their respective owner and are used only to identify the products distributed by DC Company LLC.</p>
+
+    <div class="catalog-actions">
+      <a class="btn btn-primary btn-lg" href="#request">View Price List &amp; Schedule a Call</a>
+      <a class="btn btn-outline btn-lg" href="https://wa.me/17869717751" target="_blank" rel="noopener">Ask About a Product</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHO WE SERVE ============ -->
+<section id="serve">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Who We Serve</span>
+      <h2>Built for Wholesale Buyers, Distributors &amp; Retailers</h2>
+    </div>
+    <div class="grid grid-4">
+      <div class="card">
+        <div class="chip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m7.5 4.27 9 5.15M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="m3.3 7 8.7 5 8.7-5M12 22V12"/></svg></div>
+        <h3>Wholesale Distributors</h3>
+        <p>Companies looking to distribute AVON products in their local market.</p>
+      </div>
+      <div class="card">
+        <div class="chip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18l-1.5-5.5A1 1 0 0 0 18.5 3h-13a1 1 0 0 0-1 .5z"/><path d="M5 9v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9"/><path d="M9 21v-6h6v6"/></svg></div>
+        <h3>Retail Stores &amp; Beauty Shops</h3>
+        <p>Stores interested in adding AVON products to their inventory.</p>
+      </div>
+      <div class="card">
+        <div class="chip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></div>
+        <h3>LATAM Importers</h3>
+        <p>Businesses in Latin America looking for reliable access to AVON products from the United States.</p>
+      </div>
+      <div class="card">
+        <div class="chip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M6 21V8l6-5 6 5v13M10 21v-5h4v5"/></svg></div>
+        <h3>Chain Stores &amp; Commercial Buyers</h3>
+        <p>Retail groups and commercial buyers looking for consistent supply and professional B2B service.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ADVANTAGE ============ -->
+<section class="bg-alt">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Why Work With Us</span>
+      <h2>The DC Company Advantage</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="chip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        <h3>Competitive Wholesale Pricing</h3>
+        <p>Wholesale opportunities designed to support healthy margins and business growth.</p>
+      </div>
+      <div class="card">
+        <div class="chip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg></div>
+        <h3>Globally Recognized Brand</h3>
+        <p>AVON is a trusted beauty brand with strong consumer recognition across international markets.</p>
+      </div>
+      <div class="card">
+        <div class="chip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg></div>
+        <h3>Consistent Demand</h3>
+        <p>Beauty, fragrance, skincare, and personal care products with repeat purchase potential.</p>
+      </div>
+      <div class="card">
+        <div class="chip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7M3 7l9-4 9 4M3 7l9 4 9-4"/></svg></div>
+        <h3>Scalable Supply</h3>
+        <p>From smaller wholesale orders to larger volume needs, our team can support growth.</p>
+      </div>
+      <div class="card">
+        <div class="chip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></div>
+        <h3>USA &amp; LATAM Distribution</h3>
+        <p>Serving qualified buyers across the United States and Latin America.</p>
+      </div>
+      <div class="card">
+        <div class="chip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17h4V5H2v12h3M20 17h2v-4l-3-4h-4v8h2M5 17a2 2 0 1 0 4 0 2 2 0 0 0-4 0Zm10 0a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"/></svg></div>
+        <h3>Logistics Support</h3>
+        <p>Access to warehousing, preparation, palletized shipments, domestic shipping, and export coordination support.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section id="how">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">How It Works</span>
+      <h2>Get Started in 4 Simple Steps</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <span class="num">STEP 01</span>
+        <div class="schip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <h3>Contact Our Team</h3>
+        <p>Complete the form with your company information and the products you're interested in.</p>
+      </div>
+      <div class="step">
+        <span class="num">STEP 02</span>
+        <div class="schip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h6"/></svg></div>
+        <h3>Request Product Catalog</h3>
+        <p>Our sales team will share available categories, product details, MOQ, and pricing information.</p>
+      </div>
+      <div class="step">
+        <span class="num">STEP 03</span>
+        <div class="schip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+        <h3>Confirm Your Order</h3>
+        <p>Once products, quantities, and terms are confirmed, we prepare your order.</p>
+      </div>
+      <div class="step">
+        <span class="num">STEP 04</span>
+        <div class="schip"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17h4V5H2v12h3M20 17h2v-4l-3-4h-4v8h2M5 17a2 2 0 1 0 4 0 2 2 0 0 0-4 0Zm10 0a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"/></svg></div>
+        <h3>Shipping &amp; Logistics</h3>
+        <p>We offer FREE shipping in Central Florida and South Florida. We can also assist with domestic shipping within the USA or export support for LATAM clients.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOGISTICS ADVANTAGE ============ -->
+<section class="bg-alt">
+  <div class="container logi">
+    <div>
+      <span class="eyebrow">Logistics Advantage</span>
+      <h2>Backed by Real Logistics Experience</h2>
+      <p style="margin-top:1.2rem">As part of our business ecosystem, DC Company LLC works alongside DC Logistics US, our logistics and 3PL operation based in Orlando, Florida. This gives our wholesale clients access to professional warehousing, order preparation, domestic transportation, and export support when needed.</p>
+      <ul class="logi-list">
+        <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg>Warehousing in Orlando, FL</li>
+        <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg>Domestic shipping support</li>
+        <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg>Palletized shipments</li>
+        <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg>Export coordination support for LATAM</li>
+        <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg>Bilingual customer service</li>
+        <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg>Experience with B2B, e-commerce, and wholesale operations</li>
+      </ul>
+    </div>
+    <div class="logi-img">
+      <img src="assets/distribution-center-forklift.webp" alt="DC Company LLC distribution center in Orlando, Florida with palletized inventory and forklift operations" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BANNER ============ -->
+<section class="cta-banner">
+  <div class="container">
+    <h2>Start Selling AVON Products Today</h2>
+    <p>Join our growing network of wholesale buyers, distributors, retailers, and importers across the Americas. Request our catalog and speak with our sales team today.</p>
+    <div class="row">
+      <a class="btn btn-white btn-lg" href="#request">Get Price List &amp; Book a Call</a>
+      <a class="btn btn-ghost-light btn-lg" href="https://wa.me/17869717751" target="_blank" rel="noopener">Chat on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REQUEST FORM ============ -->
+<section id="request">
+  <div class="container">
+    <div class="form-wrap">
+      <div class="form-aside">
+        <span class="eyebrow">Schedule a Call</span>
+        <h2>Get the Price List &amp; Schedule Your Appointment</h2>
+        <p class="lead" style="margin-top:1rem">Complete the form below to receive our wholesale <strong>price list</strong> and book an appointment with our sales team. We'll confirm your meeting and walk you through available products, MOQ, and pricing for your market.</p>
+        <div class="contact-list">
+          <div class="contact-row"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span><strong>Phone</strong>+1 833-762-3436</span></div>
+          <div class="contact-row"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8z"/></svg><span><strong>WhatsApp</strong>+1 786-971-7751</span></div>
+          <div class="contact-row"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg><span><strong>Email</strong>info@dclogisticsus.com</span></div>
+        </div>
+      </div>
+
+      <div class="form-card" style="padding:8px;overflow:hidden">
+        <!-- GoHighLevel embedded form. Shows the EN form by default; swaps to the ES
+             form when GHL_FORM_ES is set in the JS config and the visitor picks Español. -->
+        <iframe
+          src="https://api.leadconnectorhq.com/widget/form/UVwkIIEpnAH6OoF5seR3"
+          id="ghlForm"
+          title="AVON Wholesale — Appointment Form"
+          style="width:100%;min-height:1080px;border:none;border-radius:12px;display:block"
+          data-layout="{'id':'INLINE'}"
+          data-form-id="UVwkIIEpnAH6OoF5seR3"
+          data-height="1071"
+          scrolling="no"></iframe>
+        <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="bg-alt">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Contact Us</span>
+      <h2>Contact Our Wholesale Team</h2>
+    </div>
+    <div class="grid grid-2" style="max-width:880px;margin-inline:auto">
+      <div class="card">
+        <div class="contact-list">
+          <div class="contact-row"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h.01M9 13h.01M15 9h.01M15 13h.01"/></svg><span><strong>Company</strong>DC Company LLC</span></div>
+          <div class="contact-row"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg><span><strong>Address</strong>9550 Satellite Blvd Suite 150, Orlando, FL 32837</span></div>
+          <div class="contact-row"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg><span><strong>Email</strong><a href="mailto:info@dclogisticsus.com">info@dclogisticsus.com</a></span></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="contact-list">
+          <div class="contact-row"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span><strong>Phone</strong><a href="tel:+18337623436">+1 833-762-3436</a></span></div>
+          <div class="contact-row"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8z"/></svg><span><strong>WhatsApp</strong><a href="https://wa.me/17869717751" target="_blank" rel="noopener">+1 786-971-7751</a></span></div>
+        </div>
+        <div class="contact-cta">
+          <a class="btn btn-primary" href="https://wa.me/17869717751" target="_blank" rel="noopener">Chat on WhatsApp</a>
+          <a class="btn btn-outline email-btn" href="mailto:info@dclogisticsus.com" data-email="info@dclogisticsus.com">Send Email</a>
+          <a class="btn btn-outline" href="#request" data-book>Schedule a Call</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">FAQ</span>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq">
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Are you an authorized AVON distributor?<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p>Yes. DC Company LLC is authorized to distribute AVON products for wholesale and B2B customers in the United States and Latin America.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Do you sell to Latin America?<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p>Yes. We work with qualified buyers in the USA and LATAM, and we can assist with export-related logistics coordination.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Do you have minimum order quantities?<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p>Yes. Our minimum order quantity is $3,500 per order.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Can I request a wholesale price list?<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p>Yes. Qualified buyers can request our wholesale catalog and pricing information by contacting our sales team.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Do you offer shipping support?<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p>Yes. We offer free shipping in Central Florida and South Florida. We can also assist with domestic shipping within the USA and logistics coordination for LATAM clients.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Do you sell to e-commerce sellers?<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p>Yes. We work with online sellers, distributors, retailers, and commercial buyers.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <img src="assets/logo-white.png" alt="DC Company LLC logo" />
+        <p class="ftag">Authorized AVON Distributor for USA &amp; LATAM. Wholesale beauty products, fragrances, skincare and personal care for B2B buyers.</p>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="#home">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#catalog">Catalog</a>
+          <a href="#how">How It Works</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <div class="footer-contact">
+          <a href="mailto:info@dclogisticsus.com">info@dclogisticsus.com</a>
+          <a href="tel:+18337623436">+1 833-762-3436</a>
+          <a href="https://wa.me/17869717751" target="_blank" rel="noopener">WhatsApp: +1 786-971-7751</a>
+          <span>9550 Satellite Blvd Suite 150, Orlando, FL 32837</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="disc">AVON trademarks and product names are property of their respective owner. DC Company LLC distributes AVON products to qualified wholesale and B2B customers.</p>
+      <span class="copy">© 2026 DC Company LLC. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ SCHEMA ============ -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"DC Company LLC",
+  "description":"Authorized AVON distributor supplying wholesale AVON products, fragrances, skincare, deodorants and personal care products to B2B buyers across the USA and LATAM.",
+  "image":"https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=1200&q=80",
+  "url":"https://www.dccompanyllc.com/",
+  "telephone":"+1-833-762-3436",
+  "email":"info@dclogisticsus.com",
+  "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"9550 Satellite Blvd Suite 150",
+    "addressLocality":"Orlando",
+    "addressRegion":"FL",
+    "postalCode":"32837",
+    "addressCountry":"US"
+  },
+  "areaServed":["United States","Latin America"],
+  "knowsLanguage":["en","es"],
+  "slogan":"Authorized AVON Wholesale Distribution for USA & LATAM"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"DC Company LLC",
+  "alternateName":"Authorized AVON Distributor",
+  "url":"https://www.dccompanyllc.com/",
+  "logo":"https://www.dccompanyllc.com/assets/logo-color.png",
+  "contactPoint":{
+    "@type":"ContactPoint",
+    "telephone":"+1-833-762-3436",
+    "contactType":"sales",
+    "availableLanguage":["English","Spanish"],
+    "areaServed":["US","LATAM"]
+  }
+}
+</script>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- ============ CATALOG DATA ============ -->
+<script src="assets/catalogo/catalog-data.js"></script>
+
+<!-- ============ JS ============ -->
+<script>
+(function(){
+  /* =====================================================================
+     INTEGRATION CONFIG — edit these two values to connect GoHighLevel
+     ---------------------------------------------------------------------
+     GHL_WEBHOOK_URL : Inbound Webhook trigger URL from your GHL workflow.
+                       The form POSTs the lead as JSON; your workflow should
+                       create/update the contact and move it to the AVON
+                       pipeline stage (the payload includes "pipeline_stage").
+     GHL_CALENDAR_URL: Your GHL calendar booking link (e.g.
+                       https://api.leadconnectorhq.com/widget/booking/XXXX).
+                       When set, an embedded calendar appears under the form.
+     Leave a value as "" (empty) to disable that integration.
+     ===================================================================== */
+  var GHL_WEBHOOK_URL  = "";
+  var GHL_CALENDAR_URL = "";
+
+  /* Booking calendars for the "Schedule a Call / Agenda una Llamada" buttons.
+     EN visitors  -> Stefany's calendar ; ES visitors -> Diego's calendar.
+     Paste each GoHighLevel booking URL here. If left "", those buttons
+     fall back to the contact form (#request). */
+  var CALENDAR_URL_EN = "https://api.leadconnectorhq.com/widget/bookings/stefani-guedez-personal-calendar-jvmjicaj9";   // Stefany (English)
+  var CALENDAR_URL_ES = "https://api.leadconnectorhq.com/widget/bookings/diego-cita-espanol";   // Diego (Español)
+
+  // ---------- i18n (EN default / ES) ----------
+  var lang = (function(){try{return localStorage.getItem('lang')||'en';}catch(e){return 'en';}})();
+  var I18N_ES = {
+    "Authorized AVON Distributor":"Distribuidor Autorizado de AVON",
+    "Home":"Inicio","About Us":"Nosotros","Catalog":"Catálogo","Price List":"Lista de Precios",
+    "How It Works":"Cómo Funciona","Contact":"Contacto","Schedule a Call":"Agenda una Llamada","WhatsApp Us":"Escríbenos por WhatsApp",
+    "Authorized AVON Distributor — USA & LATAM":"Distribuidor Autorizado de AVON — USA y LATAM",
+    "Authorized AVON Wholesale Distribution for USA & LATAM":"Distribución Mayorista Autorizada de AVON para USA y LATAM",
+    "DC Company LLC is an authorized distributor of AVON products, supplying perfumes, deodorants, creams, skincare, and personal care products to wholesalers, retailers, distributors, importers, and commercial buyers across the United States and Latin America.":"DC Company LLC es distribuidor autorizado de productos AVON, suministrando perfumes, desodorantes, cremas, cuidado de la piel y productos de cuidado personal a mayoristas, minoristas, distribuidores, importadores y compradores comerciales en Estados Unidos y Latinoamérica.",
+    "USA-Based Company":"Empresa con sede en EE. UU.","Export Ready for LATAM":"Lista para Exportar a LATAM","Bilingual Support: English & Spanish":"Atención Bilingüe: Inglés y Español",
+    "Browse the Catalog":"Ver el Catálogo","Price List & Schedule a Call":"Lista de Precios y Agenda una Llamada",
+    "Based in Orlando, Florida":"Con sede en Orlando, Florida","USA & LATAM Wholesale Supply":"Suministro Mayorista USA y LATAM","Logistics Support via DC Logistics US":"Soporte Logístico vía DC Logistics US",
+    "Reliable Wholesale Distribution You Can Count On":"Distribución Mayorista Confiable en la que Puedes Confiar",
+    "DC Company LLC is a USA-based company located in Orlando, Florida, with years of experience in product distribution, e-commerce, wholesale operations, warehousing, and logistics.":"DC Company LLC es una empresa con sede en Orlando, Florida, con años de experiencia en distribución de productos, comercio electrónico, operaciones mayoristas, almacenamiento y logística.",
+    "Through our business structure, we support B2B clients with wholesale access to AVON products and logistics solutions for domestic distribution in the United States and export support to Latin America.":"A través de nuestra estructura de negocio, apoyamos a clientes B2B con acceso mayorista a productos AVON y soluciones logísticas para la distribución nacional en Estados Unidos y soporte de exportación a Latinoamérica.",
+    "Our mission is to provide reliable access to AVON products for distributors, retailers, importers, and commercial buyers looking for trusted supply, professional service, and scalable logistics support.":"Nuestra misión es brindar acceso confiable a productos AVON para distribuidores, minoristas, importadores y compradores comerciales que buscan un suministro confiable, servicio profesional y soporte logístico escalable.",
+    "Located in Orlando, Florida, serving wholesale buyers across the USA and LATAM.":"Ubicados en Orlando, Florida, atendiendo a compradores mayoristas en USA y LATAM.",
+    "Wholesale Experience":"Experiencia Mayorista","Built for B2B clients, retailers, distributors, importers, and commercial buyers.":"Diseñado para clientes B2B, minoristas, distribuidores, importadores y compradores comerciales.",
+    "Logistics Support":"Soporte Logístico","Supported by warehousing, order preparation, domestic transportation, and export coordination.":"Respaldado por almacenamiento, preparación de pedidos, transporte nacional y coordinación de exportaciones.",
+    "Bilingual Service":"Servicio Bilingüe","Professional support available in English and Spanish.":"Soporte profesional disponible en inglés y español.",
+    "Authorized Distributor":"Distribuidor Autorizado",
+    "DC Company LLC is authorized to distribute AVON products for wholesale and B2B customers in the United States and Latin America. We work with qualified buyers including distributors, retailers, beauty stores, importers, and commercial resellers.":"DC Company LLC está autorizado para distribuir productos AVON a clientes mayoristas y B2B en Estados Unidos y Latinoamérica. Trabajamos con compradores calificados, incluyendo distribuidores, minoristas, tiendas de belleza, importadores y revendedores comerciales.",
+    "Wholesale B2B Supply":"Suministro Mayorista B2B","USA & LATAM Coverage":"Cobertura USA y LATAM","Commercial Buyers Welcome":"Compradores Comerciales Bienvenidos","Catalog Available Upon Request":"Catálogo Disponible a Solicitud",
+    "AVON trademarks and product images are property of their respective owner and are used only to identify the products distributed by DC Company LLC.":"Las marcas y las imágenes de productos AVON son propiedad de su respectivo dueño y se usan solo para identificar los productos distribuidos por DC Company LLC.",
+    "Product Catalog":"Catálogo de Productos","Explore the Available AVON Catalog":"Explora el Catálogo AVON Disponible",
+    "Browse our in-stock AVON fragrances, deodorants, creams, oils and lotions. Filter by category or search by name or SKU. For wholesale pricing, request the price list and schedule a call with our team.":"Explora nuestras fragancias, desodorantes, cremas, aceites y lociones AVON en stock. Filtra por categoría o busca por nombre o SKU. Para precios mayoristas, solicita la lista de precios y agenda una llamada con nuestro equipo.",
+    "No products match your search. Try another category or keyword.":"Ningún producto coincide con tu búsqueda. Prueba otra categoría o palabra clave.",
+    "Showing":"Mostrando",
+    "available references. AVON trademarks and product images are property of their respective owner and are used only to identify the products distributed by DC Company LLC.":"referencias disponibles. Las marcas e imágenes de productos AVON son propiedad de su respectivo dueño y se usan solo para identificar los productos distribuidos por DC Company LLC.",
+    "View Price List & Schedule a Call":"Ver Lista de Precios y Agendar Llamada","Ask About a Product":"Pregunta por un Producto",
+    "Fragrances":"Fragancias","Deodorants":"Desodorantes","Creams, Oils & Lotions":"Cremas, Aceites y Lociones",
+    "Fragrance":"Fragancia","Deodorant":"Desodorante","Creams":"Cremas","All":"Todas","Case":"Caja",
+    "Who We Serve":"A Quién Atendemos","Built for Wholesale Buyers, Distributors & Retailers":"Diseñado para Compradores Mayoristas, Distribuidores y Minoristas",
+    "Wholesale Distributors":"Distribuidores Mayoristas","Companies looking to distribute AVON products in their local market.":"Empresas que buscan distribuir productos AVON en su mercado local.",
+    "Retail Stores & Beauty Shops":"Tiendas Minoristas y de Belleza","Stores interested in adding AVON products to their inventory.":"Tiendas interesadas en añadir productos AVON a su inventario.",
+    "LATAM Importers":"Importadores de LATAM","Businesses in Latin America looking for reliable access to AVON products from the United States.":"Negocios en Latinoamérica que buscan acceso confiable a productos AVON desde Estados Unidos.",
+    "Chain Stores & Commercial Buyers":"Cadenas de Tiendas y Compradores Comerciales","Retail groups and commercial buyers looking for consistent supply and professional B2B service.":"Grupos minoristas y compradores comerciales que buscan suministro constante y servicio B2B profesional.",
+    "Why Work With Us":"Por Qué Trabajar con Nosotros","The DC Company Advantage":"La Ventaja DC Company",
+    "Competitive Wholesale Pricing":"Precios Mayoristas Competitivos","Wholesale opportunities designed to support healthy margins and business growth.":"Oportunidades mayoristas diseñadas para apoyar márgenes saludables y el crecimiento del negocio.",
+    "Globally Recognized Brand":"Marca Reconocida Mundialmente","AVON is a trusted beauty brand with strong consumer recognition across international markets.":"AVON es una marca de belleza confiable con fuerte reconocimiento entre los consumidores en mercados internacionales.",
+    "Consistent Demand":"Demanda Constante","Beauty, fragrance, skincare, and personal care products with repeat purchase potential.":"Productos de belleza, fragancia, cuidado de la piel y cuidado personal con potencial de recompra.",
+    "Scalable Supply":"Suministro Escalable","From smaller wholesale orders to larger volume needs, our team can support growth.":"Desde pedidos mayoristas pequeños hasta necesidades de mayor volumen, nuestro equipo puede apoyar el crecimiento.",
+    "USA & LATAM Distribution":"Distribución USA y LATAM","Serving qualified buyers across the United States and Latin America.":"Atendiendo a compradores calificados en Estados Unidos y Latinoamérica.",
+    "Access to warehousing, preparation, palletized shipments, domestic shipping, and export coordination support.":"Acceso a almacenamiento, preparación, envíos paletizados, transporte nacional y soporte de coordinación de exportaciones.",
+    "Get Started in 4 Simple Steps":"Comienza en 4 Pasos Sencillos","STEP 01":"PASO 01","STEP 02":"PASO 02","STEP 03":"PASO 03","STEP 04":"PASO 04",
+    "Contact Our Team":"Contacta a Nuestro Equipo","Complete the form with your company information and the products you're interested in.":"Completa el formulario con la información de tu empresa y los productos que te interesan.",
+    "Request Product Catalog":"Solicita el Catálogo de Productos","Our sales team will share available categories, product details, MOQ, and pricing information.":"Nuestro equipo de ventas compartirá las categorías disponibles, detalles de producto, MOQ e información de precios.",
+    "Confirm Your Order":"Confirma tu Pedido","Once products, quantities, and terms are confirmed, we prepare your order.":"Una vez confirmados los productos, cantidades y términos, preparamos tu pedido.",
+    "Shipping & Logistics":"Envío y Logística","We offer FREE shipping in Central Florida and South Florida. We can also assist with domestic shipping within the USA or export support for LATAM clients.":"Ofrecemos envío GRATIS en Florida Central y el Sur de Florida. También podemos ayudar con el envío nacional dentro de EE. UU. o soporte de exportación para clientes de LATAM.",
+    "Logistics Advantage":"Ventaja Logística","Backed by Real Logistics Experience":"Respaldado por Experiencia Logística Real",
+    "As part of our business ecosystem, DC Company LLC works alongside DC Logistics US, our logistics and 3PL operation based in Orlando, Florida. This gives our wholesale clients access to professional warehousing, order preparation, domestic transportation, and export support when needed.":"Como parte de nuestro ecosistema de negocio, DC Company LLC trabaja junto a DC Logistics US, nuestra operación de logística y 3PL con sede en Orlando, Florida. Esto da a nuestros clientes mayoristas acceso a almacenamiento profesional, preparación de pedidos, transporte nacional y soporte de exportación cuando se necesita.",
+    "Warehousing in Orlando, FL":"Almacenamiento en Orlando, FL","Domestic shipping support":"Soporte de envío nacional","Palletized shipments":"Envíos paletizados","Export coordination support for LATAM":"Soporte de coordinación de exportación para LATAM","Bilingual customer service":"Servicio al cliente bilingüe","Experience with B2B, e-commerce, and wholesale operations":"Experiencia en operaciones B2B, e-commerce y mayoristas",
+    "Start Selling AVON Products Today":"Empieza a Vender Productos AVON Hoy","Join our growing network of wholesale buyers, distributors, retailers, and importers across the Americas. Request our catalog and speak with our sales team today.":"Únete a nuestra creciente red de compradores mayoristas, distribuidores, minoristas e importadores en toda América. Solicita nuestro catálogo y habla con nuestro equipo de ventas hoy.",
+    "Get Price List & Book a Call":"Obtén la Lista de Precios y Agenda una Llamada","Chat on WhatsApp":"Chatea por WhatsApp",
+    "Get the Price List & Schedule Your Appointment":"Obtén la Lista de Precios y Agenda tu Cita",
+    "Complete the form below to receive our wholesale":"Completa el formulario para recibir nuestra","price list":"lista de precios",
+    "and book an appointment with our sales team. We'll confirm your meeting and walk you through available products, MOQ, and pricing for your market.":" mayorista y agendar una cita con nuestro equipo de ventas. Confirmaremos tu reunión y te guiaremos por los productos disponibles, MOQ y precios para tu mercado.",
+    "Phone":"Teléfono","Email":"Correo",
+    "Full Name":"Nombre Completo","Please enter your full name.":"Por favor ingresa tu nombre completo.",
+    "Company Name":"Nombre de la Empresa","Please enter your company name.":"Por favor ingresa el nombre de tu empresa.",
+    "Please enter a valid email address.":"Por favor ingresa un correo válido.",
+    "Phone / WhatsApp":"Teléfono / WhatsApp","Please enter your phone or WhatsApp number.":"Por favor ingresa tu teléfono o WhatsApp.",
+    "Country":"País","Please enter your country.":"Por favor ingresa tu país.",
+    "Type of Business":"Tipo de Negocio","Select…":"Selecciona…","Distributor":"Distribuidor","Retail Store":"Tienda Minorista","Online Seller":"Vendedor en Línea","Importer":"Importador","Other":"Otro","Please select a business type.":"Por favor selecciona un tipo de negocio.",
+    "Products of Interest":"Productos de Interés","Perfumes":"Perfumes","Personal Care":"Cuidado Personal","Full Catalog":"Catálogo Completo",
+    "Estimated Monthly Purchase Volume":"Volumen de Compra Mensual Estimado","$3,500 to $5,000":"$3,500 a $5,000","$5,000 to $10,000":"$5,000 a $10,000","$10,000 to $20,000":"$10,000 a $20,000","Please select an estimated volume.":"Por favor selecciona un volumen estimado.",
+    "Preferred Appointment Date":"Fecha de Cita Preferida","Preferred Time":"Horario Preferido","Morning (9am–12pm)":"Mañana (9am–12pm)","Afternoon (12pm–4pm)":"Tarde (12pm–4pm)","Late afternoon (4pm–6pm)":"Final de la tarde (4pm–6pm)",
+    "Message":"Mensaje","Request Price List & Schedule Appointment":"Solicitar Lista de Precios y Agendar Cita",
+    "Thank you! Your request was received and our sales team will contact you shortly to confirm your appointment and send the wholesale price list. For faster assistance, message us on":"¡Gracias! Recibimos tu solicitud y nuestro equipo de ventas te contactará pronto para confirmar tu cita y enviarte la lista de precios mayorista. Para atención más rápida, escríbenos por",
+    "Or pick a time directly":"O elige un horario directamente","Sending…":"Enviando…",
+    "Contact Us":"Contáctanos","Contact Our Wholesale Team":"Contacta a Nuestro Equipo Mayorista","Company":"Empresa","Address":"Dirección","Send Email":"Enviar Correo",
+    "Frequently Asked Questions":"Preguntas Frecuentes",
+    "Are you an authorized AVON distributor?":"¿Son distribuidor autorizado de AVON?","Yes. DC Company LLC is authorized to distribute AVON products for wholesale and B2B customers in the United States and Latin America.":"Sí. DC Company LLC está autorizado para distribuir productos AVON a clientes mayoristas y B2B en Estados Unidos y Latinoamérica.",
+    "Do you sell to Latin America?":"¿Venden a Latinoamérica?","Yes. We work with qualified buyers in the USA and LATAM, and we can assist with export-related logistics coordination.":"Sí. Trabajamos con compradores calificados en USA y LATAM, y podemos ayudar con la coordinación logística de exportación.",
+    "Do you have minimum order quantities?":"¿Tienen cantidades mínimas de pedido?","Yes. Our minimum order quantity is $3,500 per order.":"Sí. Nuestro pedido mínimo es de $3,500 por orden.",
+    "Can I request a wholesale price list?":"¿Puedo solicitar una lista de precios mayorista?","Yes. Qualified buyers can request our wholesale catalog and pricing information by contacting our sales team.":"Sí. Los compradores calificados pueden solicitar nuestro catálogo mayorista e información de precios contactando a nuestro equipo de ventas.",
+    "Do you offer shipping support?":"¿Ofrecen soporte de envío?","Yes. We offer free shipping in Central Florida and South Florida. We can also assist with domestic shipping within the USA and logistics coordination for LATAM clients.":"Sí. Ofrecemos envío gratis en Florida Central y el Sur de Florida. También podemos ayudar con envío nacional dentro de EE. UU. y coordinación logística para clientes de LATAM.",
+    "Do you sell to e-commerce sellers?":"¿Venden a vendedores de e-commerce?","Yes. We work with online sellers, distributors, retailers, and commercial buyers.":"Sí. Trabajamos con vendedores en línea, distribuidores, minoristas y compradores comerciales.",
+    "Authorized AVON Distributor for USA & LATAM. Wholesale beauty products, fragrances, skincare and personal care for B2B buyers.":"Distribuidor Autorizado de AVON para USA y LATAM. Productos de belleza mayoristas, fragancias, cuidado de la piel y cuidado personal para compradores B2B.",
+    "Navigate":"Navegación",
+    "AVON trademarks and product names are property of their respective owner. DC Company LLC distributes AVON products to qualified wholesale and B2B customers.":"Las marcas y nombres de productos AVON son propiedad de su respectivo dueño. DC Company LLC distribuye productos AVON a clientes mayoristas y B2B calificados.",
+    "© 2026 DC Company LLC. All rights reserved.":"© 2026 DC Company LLC. Todos los derechos reservados.",
+    "Search by product or SKU…":"Busca por producto o SKU…","Search products":"Buscar productos","Tell us about your business needs…":"Cuéntanos sobre las necesidades de tu negocio…","Filter products by category":"Filtrar productos por categoría",
+    "Email address copied to clipboard":"Correo copiado al portapapeles","Opening your email app…":"Abriendo tu app de correo…"
+  };
+  function t(s){ return (lang==='es' && I18N_ES[s]!=null) ? I18N_ES[s] : s; }
+  var updateCatalogLang = function(){};
+
+  // ---------- Dynamic catalog ----------
+  var DATA=(window.AVON_CATALOG||[]);
+  var grid=document.getElementById('catalogGrid'),
+      filters=document.getElementById('catFilters'),
+      searchEl=document.getElementById('catSearch'),
+      emptyEl=document.getElementById('catalogEmpty'),
+      countEl=document.getElementById('catCount');
+  var state={cat:'All',q:''};
+
+  if(grid&&DATA.length){
+    var cats=['All'];
+    DATA.forEach(function(p){if(cats.indexOf(p.cat)<0)cats.push(p.cat);});
+    function catLabel(c){return t(c);}
+    cats.forEach(function(c){
+      var n=c==='All'?DATA.length:DATA.filter(function(p){return p.cat===c;}).length;
+      var b=document.createElement('button');
+      b.className='cat-chip'+(c==='All'?' active':'');
+      b.type='button';b.setAttribute('role','tab');b.dataset.cat=c;
+      b.innerHTML='<span class="lbl">'+catLabel(c)+'</span> <span class="n">'+n+'</span>';
+      b.addEventListener('click',function(){
+        state.cat=c;
+        filters.querySelectorAll('.cat-chip').forEach(function(x){x.classList.toggle('active',x===b);x.setAttribute('aria-selected',x===b);});
+        render();
+      });
+      filters.appendChild(b);
+    });
+
+    function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+    function card(p){
+      var el=document.createElement('article');el.className='cat-item';
+      var alt=(p.name||('AVON product '+p.sku)).trim()+(p.size?(' '+p.size):'');
+      var sizeline=[p.size, p.case?(t('Case')+' '+p.case):''].filter(Boolean).join(' · ');
+      el.innerHTML=
+        '<div class="pic"><img src="'+p.img+'" alt="'+esc(alt)+'" loading="lazy" decoding="async"></div>'+
+        '<div class="body">'+
+          '<h3 class="pname">'+esc(p.name||'AVON Product')+'</h3>'+
+          (sizeline?'<div class="psize">'+esc(sizeline)+'</div>':'<div class="psize">&nbsp;</div>')+
+          '<div class="meta"><span class="sku">'+esc(p.sku||'—')+'</span><span class="cat-tag">'+catShort(p.cat)+'</span></div>'+
+        '</div>';
+      return el;
+    }
+    function catShort(c){return t(c==='Creams, Oils & Lotions'?'Creams':c==='Fragrances'?'Fragrance':'Deodorant');}
+
+    function render(){
+      var q=state.q.trim().toLowerCase();
+      var list=DATA.filter(function(p){
+        if(state.cat!=='All'&&p.cat!==state.cat)return false;
+        if(q&&p.q.indexOf(q)<0)return false;
+        return true;
+      });
+      grid.innerHTML='';
+      list.forEach(function(p){grid.appendChild(card(p));});
+      countEl.textContent=list.length;
+      emptyEl.classList.toggle('show',list.length===0);
+    }
+    if(searchEl){
+      var deb;searchEl.addEventListener('input',function(){clearTimeout(deb);deb=setTimeout(function(){state.q=searchEl.value;render();},120);});
+    }
+    updateCatalogLang=function(){
+      filters.querySelectorAll('.cat-chip').forEach(function(b){var l=b.querySelector('.lbl');if(l)l.textContent=catLabel(b.dataset.cat);});
+      render();
+    };
+    render();
+  }
+
+  // ---------- Booking calendar embed ----------
+  if(GHL_CALENDAR_URL){
+    var be=document.getElementById('bookingEmbed'),bd=document.getElementById('bookingDivider');
+    if(be){
+      var ifr=document.createElement('iframe');
+      ifr.src=GHL_CALENDAR_URL;ifr.title='Schedule an appointment';ifr.loading='lazy';
+      be.appendChild(ifr);be.classList.add('show');if(bd)bd.style.display='flex';
+    }
+  }
+
+  // Mobile nav
+  var burger=document.getElementById('burger'),nav=document.getElementById('navLinks');
+  burger.addEventListener('click',function(){
+    var open=nav.classList.toggle('open');
+    burger.setAttribute('aria-expanded',open);
+  });
+  nav.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open');burger.setAttribute('aria-expanded',false);});});
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-q').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var item=btn.parentElement,ans=item.querySelector('.faq-a'),isOpen=item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(function(o){
+        o.classList.remove('open');o.querySelector('.faq-a').style.maxHeight=null;o.querySelector('.faq-q').setAttribute('aria-expanded',false);
+      });
+      if(!isOpen){item.classList.add('open');ans.style.maxHeight=ans.scrollHeight+'px';btn.setAttribute('aria-expanded',true);}
+    });
+  });
+
+  // ---------- GoHighLevel embedded form (language-aware) ----------
+  /* English form is shown by default. Create a Spanish duplicate in GHL and paste its
+     form id in GHL_FORM_ES to auto-swap when the visitor selects Español. */
+  var GHL_FORM_EN = "UVwkIIEpnAH6OoF5seR3";   // English form id
+  var GHL_FORM_ES = "b0lfLmIxedU4mBj9pUWS";   // Spanish form id
+  function updateFormLang(){
+    var ifr=document.getElementById('ghlForm');
+    if(!ifr)return;
+    var id=(lang==='es' && GHL_FORM_ES) ? GHL_FORM_ES : GHL_FORM_EN;
+    var want="https://api.leadconnectorhq.com/widget/form/"+id;
+    if(ifr.getAttribute('src')!==want){ ifr.setAttribute('src',want); ifr.setAttribute('data-form-id',id); }
+  }
+
+  // ---------- Toast ----------
+  var toastEl=document.getElementById('toast'),toastT;
+  function toast(msg){
+    if(!toastEl)return;
+    toastEl.textContent=msg;toastEl.classList.add('show');
+    clearTimeout(toastT);toastT=setTimeout(function(){toastEl.classList.remove('show');},2600);
+  }
+
+  // ---------- Send Email (works on every device) ----------
+  document.querySelectorAll('.email-btn').forEach(function(a){
+    a.addEventListener('click',function(){
+      var email=a.dataset.email||'info@dclogisticsus.com';
+      // Copy the address so the action always works, even with no mail client set up.
+      try{
+        if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(email);}
+        else{var ta=document.createElement('textarea');ta.value=email;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();document.execCommand('copy');document.body.removeChild(ta);}
+        toast(t('Email address copied to clipboard')+': '+email);
+      }catch(err){}
+      // The default mailto: still fires for visitors who DO have a mail app configured.
+    });
+  });
+
+  // ---------- Booking buttons (Schedule a Call -> calendar by language) ----------
+  function updateBookingLinks(){
+    var url = (lang==='es') ? CALENDAR_URL_ES : CALENDAR_URL_EN;
+    document.querySelectorAll('[data-book]').forEach(function(a){
+      if(url){a.setAttribute('href',url);a.setAttribute('target','_blank');a.setAttribute('rel','noopener');}
+      else{a.setAttribute('href','#request');a.removeAttribute('target');}
+    });
+  }
+
+  // ---------- Language switch engine ----------
+  // Snapshot original EN text nodes + translatable attributes (skip catalog grid/filters/scripts/toggle)
+  var textSnap=[], attrSnap=[];
+  (function buildSnapshot(){
+    var skip=function(el){return !el || el.closest('#catalogGrid,#catFilters,#langToggle,script,style');};
+    var tw=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,null);
+    var node;
+    while((node=tw.nextNode())){
+      var raw=node.nodeValue, key=raw.replace(/\s+/g,' ').trim();
+      if(key && I18N_ES[key]!=null && !skip(node.parentElement)) textSnap.push({node:node,raw:raw,key:key});
+    }
+    document.querySelectorAll('[placeholder],[aria-label]').forEach(function(el){
+      if(el.closest('#langToggle'))return;
+      ['placeholder','aria-label'].forEach(function(a){
+        var v=el.getAttribute(a);
+        if(v && I18N_ES[v.trim()]!=null) attrSnap.push({el:el,attr:a,en:v});
+      });
+    });
+  })();
+
+  function applyLang(l){
+    lang=l;
+    try{localStorage.setItem('lang',l);}catch(e){}
+    document.documentElement.lang=l;
+    textSnap.forEach(function(it){
+      it.node.nodeValue = (l==='es') ? it.raw.replace(it.key, I18N_ES[it.key]) : it.raw;
+    });
+    attrSnap.forEach(function(it){
+      it.el.setAttribute(it.attr, (l==='es') ? I18N_ES[it.en.trim()] : it.en);
+    });
+    // toggle button state
+    document.querySelectorAll('#langToggle button').forEach(function(b){
+      var on=b.dataset.lang===l;
+      b.classList.toggle('active',on);b.setAttribute('aria-pressed',on);
+    });
+    updateCatalogLang();
+    updateBookingLinks();
+    updateFormLang();
+  }
+
+  document.querySelectorAll('#langToggle button').forEach(function(b){
+    b.addEventListener('click',function(){applyLang(b.dataset.lang);});
+  });
+
+  // apply stored preference (EN default)
+  applyLang(lang);
+})();
+</script>
+</body>
+</html>

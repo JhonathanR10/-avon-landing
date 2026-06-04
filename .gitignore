@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+**/.DS_Store
+.claude/
+package.json
+package-lock.json
+pricing-iddentify.gs
+_shot.html
+_diag.html
+ghl_form.html

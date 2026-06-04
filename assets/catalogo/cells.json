@@ -1,0 +1,776 @@
+[
+ {
+  "page": 1,
+  "category": "Fragancias",
+  "row": 0,
+  "col": 1,
+  "image": "assets/catalogo/p1_0_1.png",
+  "w": 534,
+  "h": 410
+ },
+ {
+  "page": 1,
+  "category": "Fragancias",
+  "row": 1,
+  "col": 0,
+  "image": "assets/catalogo/p1_1_0.png",
+  "w": 534,
+  "h": 539
+ },
+ {
+  "page": 1,
+  "category": "Fragancias",
+  "row": 1,
+  "col": 1,
+  "image": "assets/catalogo/p1_1_1.png",
+  "w": 534,
+  "h": 551
+ },
+ {
+  "page": 1,
+  "category": "Fragancias",
+  "row": 1,
+  "col": 2,
+  "image": "assets/catalogo/p1_1_2.png",
+  "w": 534,
+  "h": 528
+ },
+ {
+  "page": 1,
+  "category": "Fragancias",
+  "row": 2,
+  "col": 0,
+  "image": "assets/catalogo/p1_2_0.png",
+  "w": 534,
+  "h": 561
+ },
+ {
+  "page": 1,
+  "category": "Fragancias",
+  "row": 2,
+  "col": 1,
+  "image": "assets/catalogo/p1_2_1.png",
+  "w": 534,
+  "h": 532
+ },
+ {
+  "page": 1,
+  "category": "Fragancias",
+  "row": 2,
+  "col": 2,
+  "image": "assets/catalogo/p1_2_2.png",
+  "w": 534,
+  "h": 529
+ },
+ {
+  "page": 1,
+  "category": "Fragancias",
+  "row": 3,
+  "col": 0,
+  "image": "assets/catalogo/p1_3_0.png",
+  "w": 534,
+  "h": 567
+ },
+ {
+  "page": 1,
+  "category": "Fragancias",
+  "row": 3,
+  "col": 1,
+  "image": "assets/catalogo/p1_3_1.png",
+  "w": 534,
+  "h": 588
+ },
+ {
+  "page": 2,
+  "category": "Fragancias",
+  "row": 0,
+  "col": 1,
+  "image": "assets/catalogo/p2_0_1.png",
+  "w": 534,
+  "h": 383
+ },
+ {
+  "page": 2,
+  "category": "Fragancias",
+  "row": 1,
+  "col": 0,
+  "image": "assets/catalogo/p2_1_0.png",
+  "w": 534,
+  "h": 477
+ },
+ {
+  "page": 2,
+  "category": "Fragancias",
+  "row": 1,
+  "col": 1,
+  "image": "assets/catalogo/p2_1_1.png",
+  "w": 534,
+  "h": 500
+ },
+ {
+  "page": 2,
+  "category": "Fragancias",
+  "row": 1,
+  "col": 2,
+  "image": "assets/catalogo/p2_1_2.png",
+  "w": 534,
+  "h": 485
+ },
+ {
+  "page": 2,
+  "category": "Fragancias",
+  "row": 2,
+  "col": 0,
+  "image": "assets/catalogo/p2_2_0.png",
+  "w": 534,
+  "h": 79
+ },
+ {
+  "page": 2,
+  "category": "Fragancias",
+  "row": 2,
+  "col": 1,
+  "image": "assets/catalogo/p2_2_1.png",
+  "w": 534,
+  "h": 21
+ },
+ {
+  "page": 2,
+  "category": "Fragancias",
+  "row": 3,
+  "col": 2,
+  "image": "assets/catalogo/p2_3_2.png",
+  "w": 534,
+  "h": 502
+ },
+ {
+  "page": 2,
+  "category": "Fragancias",
+  "row": 4,
+  "col": 0,
+  "image": "assets/catalogo/p2_4_0.png",
+  "w": 534,
+  "h": 82
+ },
+ {
+  "page": 2,
+  "category": "Fragancias",
+  "row": 4,
+  "col": 2,
+  "image": "assets/catalogo/p2_4_2.png",
+  "w": 534,
+  "h": 76
+ },
+ {
+  "page": 2,
+  "category": "Fragancias",
+  "row": 5,
+  "col": 1,
+  "image": "assets/catalogo/p2_5_1.png",
+  "w": 534,
+  "h": 566
+ },
+ {
+  "page": 3,
+  "category": "Fragancias",
+  "row": 0,
+  "col": 1,
+  "image": "assets/catalogo/p3_0_1.png",
+  "w": 534,
+  "h": 356
+ },
+ {
+  "page": 3,
+  "category": "Fragancias",
+  "row": 1,
+  "col": 0,
+  "image": "assets/catalogo/p3_1_0.png",
+  "w": 534,
+  "h": 475
+ },
+ {
+  "page": 3,
+  "category": "Fragancias",
+  "row": 1,
+  "col": 1,
+  "image": "assets/catalogo/p3_1_1.png",
+  "w": 534,
+  "h": 541
+ },
+ {
+  "page": 3,
+  "category": "Fragancias",
+  "row": 1,
+  "col": 2,
+  "image": "assets/catalogo/p3_1_2.png",
+  "w": 534,
+  "h": 491
+ },
+ {
+  "page": 3,
+  "category": "Fragancias",
+  "row": 2,
+  "col": 0,
+  "image": "assets/catalogo/p3_2_0.png",
+  "w": 534,
+  "h": 509
+ },
+ {
+  "page": 3,
+  "category": "Fragancias",
+  "row": 2,
+  "col": 1,
+  "image": "assets/catalogo/p3_2_1.png",
+  "w": 534,
+  "h": 504
+ },
+ {
+  "page": 3,
+  "category": "Fragancias",
+  "row": 2,
+  "col": 2,
+  "image": "assets/catalogo/p3_2_2.png",
+  "w": 534,
+  "h": 567
+ },
+ {
+  "page": 3,
+  "category": "Fragancias",
+  "row": 3,
+  "col": 1,
+  "image": "assets/catalogo/p3_3_1.png",
+  "w": 534,
+  "h": 83
+ },
+ {
+  "page": 3,
+  "category": "Fragancias",
+  "row": 4,
+  "col": 0,
+  "image": "assets/catalogo/p3_4_0.png",
+  "w": 534,
+  "h": 558
+ },
+ {
+  "page": 3,
+  "category": "Fragancias",
+  "row": 4,
+  "col": 2,
+  "image": "assets/catalogo/p3_4_2.png",
+  "w": 534,
+  "h": 558
+ },
+ {
+  "page": 4,
+  "category": "Fragancias",
+  "row": 0,
+  "col": 1,
+  "image": "assets/catalogo/p4_0_1.png",
+  "w": 534,
+  "h": 387
+ },
+ {
+  "page": 4,
+  "category": "Fragancias",
+  "row": 1,
+  "col": 0,
+  "image": "assets/catalogo/p4_1_0.png",
+  "w": 534,
+  "h": 495
+ },
+ {
+  "page": 4,
+  "category": "Fragancias",
+  "row": 1,
+  "col": 1,
+  "image": "assets/catalogo/p4_1_1.png",
+  "w": 534,
+  "h": 476
+ },
+ {
+  "page": 4,
+  "category": "Fragancias",
+  "row": 1,
+  "col": 2,
+  "image": "assets/catalogo/p4_1_2.png",
+  "w": 534,
+  "h": 467
+ },
+ {
+  "page": 4,
+  "category": "Fragancias",
+  "row": 2,
+  "col": 0,
+  "image": "assets/catalogo/p4_2_0.png",
+  "w": 534,
+  "h": 94
+ },
+ {
+  "page": 4,
+  "category": "Fragancias",
+  "row": 3,
+  "col": 1,
+  "image": "assets/catalogo/p4_3_1.png",
+  "w": 534,
+  "h": 544
+ },
+ {
+  "page": 4,
+  "category": "Fragancias",
+  "row": 3,
+  "col": 2,
+  "image": "assets/catalogo/p4_3_2.png",
+  "w": 534,
+  "h": 550
+ },
+ {
+  "page": 4,
+  "category": "Fragancias",
+  "row": 4,
+  "col": 0,
+  "image": "assets/catalogo/p4_4_0.png",
+  "w": 534,
+  "h": 585
+ },
+ {
+  "page": 4,
+  "category": "Fragancias",
+  "row": 4,
+  "col": 1,
+  "image": "assets/catalogo/p4_4_1.png",
+  "w": 534,
+  "h": 587
+ },
+ {
+  "page": 4,
+  "category": "Fragancias",
+  "row": 4,
+  "col": 2,
+  "image": "assets/catalogo/p4_4_2.png",
+  "w": 534,
+  "h": 589
+ },
+ {
+  "page": 5,
+  "category": "Fragancias y Desodorantes",
+  "row": 0,
+  "col": 1,
+  "image": "assets/catalogo/p5_0_1.png",
+  "w": 534,
+  "h": 290
+ },
+ {
+  "page": 5,
+  "category": "Fragancias y Desodorantes",
+  "row": 1,
+  "col": 0,
+  "image": "assets/catalogo/p5_1_0.png",
+  "w": 534,
+  "h": 622
+ },
+ {
+  "page": 5,
+  "category": "Fragancias y Desodorantes",
+  "row": 1,
+  "col": 1,
+  "image": "assets/catalogo/p5_1_1.png",
+  "w": 534,
+  "h": 621
+ },
+ {
+  "page": 5,
+  "category": "Fragancias y Desodorantes",
+  "row": 2,
+  "col": 0,
+  "image": "assets/catalogo/p5_2_0.png",
+  "w": 534,
+  "h": 562
+ },
+ {
+  "page": 5,
+  "category": "Fragancias y Desodorantes",
+  "row": 2,
+  "col": 1,
+  "image": "assets/catalogo/p5_2_1.png",
+  "w": 534,
+  "h": 562
+ },
+ {
+  "page": 5,
+  "category": "Fragancias y Desodorantes",
+  "row": 2,
+  "col": 2,
+  "image": "assets/catalogo/p5_2_2.png",
+  "w": 534,
+  "h": 566
+ },
+ {
+  "page": 5,
+  "category": "Fragancias y Desodorantes",
+  "row": 3,
+  "col": 0,
+  "image": "assets/catalogo/p5_3_0.png",
+  "w": 534,
+  "h": 532
+ },
+ {
+  "page": 5,
+  "category": "Fragancias y Desodorantes",
+  "row": 3,
+  "col": 1,
+  "image": "assets/catalogo/p5_3_1.png",
+  "w": 534,
+  "h": 532
+ },
+ {
+  "page": 5,
+  "category": "Fragancias y Desodorantes",
+  "row": 3,
+  "col": 2,
+  "image": "assets/catalogo/p5_3_2.png",
+  "w": 534,
+  "h": 527
+ },
+ {
+  "page": 6,
+  "category": "Desodorantes",
+  "row": 0,
+  "col": 1,
+  "image": "assets/catalogo/p6_0_1.png",
+  "w": 534,
+  "h": 382
+ },
+ {
+  "page": 6,
+  "category": "Desodorantes",
+  "row": 1,
+  "col": 0,
+  "image": "assets/catalogo/p6_1_0.png",
+  "w": 534,
+  "h": 549
+ },
+ {
+  "page": 6,
+  "category": "Desodorantes",
+  "row": 1,
+  "col": 1,
+  "image": "assets/catalogo/p6_1_1.png",
+  "w": 534,
+  "h": 556
+ },
+ {
+  "page": 6,
+  "category": "Desodorantes",
+  "row": 1,
+  "col": 2,
+  "image": "assets/catalogo/p6_1_2.png",
+  "w": 534,
+  "h": 553
+ },
+ {
+  "page": 6,
+  "category": "Desodorantes",
+  "row": 2,
+  "col": 0,
+  "image": "assets/catalogo/p6_2_0.png",
+  "w": 534,
+  "h": 571
+ },
+ {
+  "page": 6,
+  "category": "Desodorantes",
+  "row": 2,
+  "col": 1,
+  "image": "assets/catalogo/p6_2_1.png",
+  "w": 534,
+  "h": 550
+ },
+ {
+  "page": 6,
+  "category": "Desodorantes",
+  "row": 2,
+  "col": 2,
+  "image": "assets/catalogo/p6_2_2.png",
+  "w": 534,
+  "h": 579
+ },
+ {
+  "page": 6,
+  "category": "Desodorantes",
+  "row": 3,
+  "col": 0,
+  "image": "assets/catalogo/p6_3_0.png",
+  "w": 534,
+  "h": 597
+ },
+ {
+  "page": 6,
+  "category": "Desodorantes",
+  "row": 3,
+  "col": 1,
+  "image": "assets/catalogo/p6_3_1.png",
+  "w": 534,
+  "h": 606
+ },
+ {
+  "page": 6,
+  "category": "Desodorantes",
+  "row": 3,
+  "col": 2,
+  "image": "assets/catalogo/p6_3_2.png",
+  "w": 534,
+  "h": 600
+ },
+ {
+  "page": 7,
+  "category": "Desodorantes",
+  "row": 0,
+  "col": 1,
+  "image": "assets/catalogo/p7_0_1.png",
+  "w": 534,
+  "h": 416
+ },
+ {
+  "page": 7,
+  "category": "Desodorantes",
+  "row": 1,
+  "col": 0,
+  "image": "assets/catalogo/p7_1_0.png",
+  "w": 534,
+  "h": 557
+ },
+ {
+  "page": 7,
+  "category": "Desodorantes",
+  "row": 1,
+  "col": 1,
+  "image": "assets/catalogo/p7_1_1.png",
+  "w": 534,
+  "h": 541
+ },
+ {
+  "page": 7,
+  "category": "Desodorantes",
+  "row": 1,
+  "col": 2,
+  "image": "assets/catalogo/p7_1_2.png",
+  "w": 534,
+  "h": 587
+ },
+ {
+  "page": 7,
+  "category": "Desodorantes",
+  "row": 2,
+  "col": 0,
+  "image": "assets/catalogo/p7_2_0.png",
+  "w": 534,
+  "h": 570
+ },
+ {
+  "page": 7,
+  "category": "Desodorantes",
+  "row": 2,
+  "col": 1,
+  "image": "assets/catalogo/p7_2_1.png",
+  "w": 534,
+  "h": 584
+ },
+ {
+  "page": 7,
+  "category": "Desodorantes",
+  "row": 2,
+  "col": 2,
+  "image": "assets/catalogo/p7_2_2.png",
+  "w": 534,
+  "h": 593
+ },
+ {
+  "page": 7,
+  "category": "Desodorantes",
+  "row": 3,
+  "col": 0,
+  "image": "assets/catalogo/p7_3_0.png",
+  "w": 534,
+  "h": 540
+ },
+ {
+  "page": 8,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 0,
+  "col": 1,
+  "image": "assets/catalogo/p8_0_1.png",
+  "w": 534,
+  "h": 315
+ },
+ {
+  "page": 8,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 1,
+  "col": 0,
+  "image": "assets/catalogo/p8_1_0.png",
+  "w": 534,
+  "h": 602
+ },
+ {
+  "page": 8,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 1,
+  "col": 1,
+  "image": "assets/catalogo/p8_1_1.png",
+  "w": 534,
+  "h": 595
+ },
+ {
+  "page": 8,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 1,
+  "col": 2,
+  "image": "assets/catalogo/p8_1_2.png",
+  "w": 534,
+  "h": 558
+ },
+ {
+  "page": 8,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 2,
+  "col": 0,
+  "image": "assets/catalogo/p8_2_0.png",
+  "w": 534,
+  "h": 539
+ },
+ {
+  "page": 8,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 2,
+  "col": 1,
+  "image": "assets/catalogo/p8_2_1.png",
+  "w": 534,
+  "h": 548
+ },
+ {
+  "page": 8,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 2,
+  "col": 2,
+  "image": "assets/catalogo/p8_2_2.png",
+  "w": 534,
+  "h": 559
+ },
+ {
+  "page": 8,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 3,
+  "col": 0,
+  "image": "assets/catalogo/p8_3_0.png",
+  "w": 534,
+  "h": 627
+ },
+ {
+  "page": 8,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 3,
+  "col": 1,
+  "image": "assets/catalogo/p8_3_1.png",
+  "w": 534,
+  "h": 504
+ },
+ {
+  "page": 8,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 3,
+  "col": 2,
+  "image": "assets/catalogo/p8_3_2.png",
+  "w": 534,
+  "h": 602
+ },
+ {
+  "page": 9,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 0,
+  "col": 1,
+  "image": "assets/catalogo/p9_0_1.png",
+  "w": 534,
+  "h": 362
+ },
+ {
+  "page": 9,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 1,
+  "col": 0,
+  "image": "assets/catalogo/p9_1_0.png",
+  "w": 534,
+  "h": 504
+ },
+ {
+  "page": 9,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 1,
+  "col": 1,
+  "image": "assets/catalogo/p9_1_1.png",
+  "w": 534,
+  "h": 504
+ },
+ {
+  "page": 9,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 1,
+  "col": 2,
+  "image": "assets/catalogo/p9_1_2.png",
+  "w": 534,
+  "h": 504
+ },
+ {
+  "page": 9,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 2,
+  "col": 0,
+  "image": "assets/catalogo/p9_2_0.png",
+  "w": 534,
+  "h": 647
+ },
+ {
+  "page": 9,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 2,
+  "col": 1,
+  "image": "assets/catalogo/p9_2_1.png",
+  "w": 534,
+  "h": 582
+ },
+ {
+  "page": 9,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 2,
+  "col": 2,
+  "image": "assets/catalogo/p9_2_2.png",
+  "w": 534,
+  "h": 578
+ },
+ {
+  "page": 9,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 3,
+  "col": 0,
+  "image": "assets/catalogo/p9_3_0.png",
+  "w": 534,
+  "h": 556
+ },
+ {
+  "page": 9,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 3,
+  "col": 1,
+  "image": "assets/catalogo/p9_3_1.png",
+  "w": 534,
+  "h": 577
+ },
+ {
+  "page": 9,
+  "category": "Cremas, Aceites y Lociones",
+  "row": 3,
+  "col": 2,
+  "image": "assets/catalogo/p9_3_2.png",
+  "w": 534,
+  "h": 592
+ }
+]
