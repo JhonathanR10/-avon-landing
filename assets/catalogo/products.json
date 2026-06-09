@@ -126,6 +126,33 @@
   "q": "haiku reflection edp f4082671 1.7 oz fragrances"
  },
  {
+  "img": "assets/catalogo/p2_F3780841.png",
+  "name": "Haiku Kyoto Flower EDP",
+  "sku": "F3780841",
+  "size": "1.7 OZ",
+  "case": 60,
+  "cat": "Fragrances",
+  "q": "haiku kyoto flower edp f3780841 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p2_F4516201.png",
+  "name": "Far Away Infinity EDP",
+  "sku": "F4516201",
+  "size": "1.7 OZ",
+  "case": 70,
+  "cat": "Fragrances",
+  "q": "far away infinity edp f4516201 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p2_F4387231.png",
+  "name": "Imari EDT",
+  "sku": "F4387231",
+  "size": "1.7 OZ",
+  "case": 30,
+  "cat": "Fragrances",
+  "q": "imari edt f4387231 1.7 oz fragrances"
+ },
+ {
   "img": "assets/catalogo/p3_101.png",
   "name": "Imari Seduction EDT",
   "sku": "F4281741",
@@ -178,6 +205,33 @@
   "case": 30,
   "cat": "Fragrances",
   "q": "timeless cologne f4017091 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p3_F3882941.png",
+  "name": "Rare Gold EDP",
+  "sku": "F3882941",
+  "size": "1.7 OZ",
+  "case": 30,
+  "cat": "Fragrances",
+  "q": "rare gold edp f3882941 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p3_F4748921.png",
+  "name": "Sweet Honesty Cologne",
+  "sku": "F4748921",
+  "size": "1.7 OZ",
+  "case": 30,
+  "cat": "Fragrances",
+  "q": "sweet honesty cologne f4748921 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p3_F4749371.png",
+  "name": "Night Magic Cologne",
+  "sku": "F4749371",
+  "size": "1.7 OZ",
+  "case": 30,
+  "cat": "Fragrances",
+  "q": "night magic cologne f4749371 1.7 oz fragrances"
  },
  {
   "img": "assets/catalogo/p4_132.png",
@@ -250,6 +304,15 @@
   "case": 24,
   "cat": "Fragrances",
   "q": "lyrd honeysuckle blossom edp f4723451 1.7 oz fragrances"
+ },
+ {
+  "img": "assets/catalogo/p4_F4749401.png",
+  "name": "Free O2 EDT",
+  "sku": "F4749401",
+  "size": "1.7 OZ",
+  "case": 42,
+  "cat": "Fragrances",
+  "q": "free o2 edt f4749401 1.7 oz fragrances"
  },
  {
   "img": "assets/catalogo/p5_170.png",
@@ -538,6 +601,15 @@
   "case": 88,
   "cat": "Creams, Oils & Lotions",
   "q": "timeless skin softener cream f4749651 5 oz creams, oils & lotions"
+ },
+ {
+  "img": "assets/catalogo/p8_F4749691.png",
+  "name": "Sweet Honesty Skin Softener Cream",
+  "sku": "F4749691",
+  "size": "5 OZ",
+  "case": 88,
+  "cat": "Creams, Oils & Lotions",
+  "q": "sweet honesty skin softener cream f4749691 5 oz creams, oils & lotions"
  },
  {
   "img": "assets/catalogo/p9_264.png",
